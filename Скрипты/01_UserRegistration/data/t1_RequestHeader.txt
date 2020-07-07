@@ -1,0 +1,10 @@
+GET /ast/ast.js HTTP/1.1
+Accept: application/javascript, */*;q=0.8
+Host: acdn.adnxs.com
+Connection: Keep-Alive
+Referer: https://www.msn.com/spartan/ientp?locale=ru-RU&market=RU&enableregulatorypsm=0&enablecpsm=0&NTLogo=0&IsFRE=0
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Cookie: anj=dTM7k!M4/YD>6NRF']wIg2In@wulXX!]tbPl1Mxx'a(`xU`pu.Sh0)<_eG[sSgt>%a[fn)uUP-5<mcF'9sk@3@'u0e4(v@H6^Q?n; uuid2=57369608809962286; icu=ChgIxqEVEAoYASABKAEw9u-T-AU4AUABSAEQ9u-T-AUYAA..
+

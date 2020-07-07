@@ -1,0 +1,22 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 30161
+Server: nginx/1.13.10
+Content-Type: application/javascript
+Last-Modified: Wed, 03 Jun 2020 17:34:05 GMT
+ETag: W/"5ed7df0d-15057"
+Expires: Thu, 04 Jun 2020 17:34:10 GMT
+Cache-Control: max-age=86402
+Access-Control-Allow-Origin: *
+Content-Encoding: gzip
+Via: 1.1 varnish
+Accept-Ranges: bytes
+Date: Tue, 07 Jul 2020 22:36:04 GMT
+Via: 1.1 varnish
+Age: 18048
+X-Served-By: cache-lga21936-LGA, cache-bma1650-BMA
+X-Cache: HIT, HIT
+X-Cache-Hits: 3, 26091
+X-Timer: S1594161365.677030,VS0,VE0
+Vary: Accept-Encoding
+

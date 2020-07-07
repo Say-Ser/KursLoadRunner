@@ -1,0 +1,15 @@
+HTTP/1.1 200 OK
+Content-Type: application/font-woff
+Last-Modified: Thu, 28 May 2020 22:47:34 GMT
+Accept-Ranges: bytes
+ETag: "0c726fa4135d61:0"
+Server: Microsoft-IIS/8.5
+Access-Control-Allow-Origin: *
+X-Powered-By: ASP.NET
+Access-Control-Allow-Methods: HEAD,GET,OPTIONS
+X-XSS-Protection: 1
+Content-Length: 45633
+Cache-Control: max-age=28563089
+Date: Tue, 07 Jul 2020 22:36:15 GMT
+Connection: keep-alive
+

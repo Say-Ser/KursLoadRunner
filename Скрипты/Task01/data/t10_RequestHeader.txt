@@ -1,0 +1,6 @@
+GET /chrome/config/plugins_2/plugins_win.json HTTP/1.1
+Host: www.gstatic.com
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
+Accept-Encoding: gzip, deflate, br
+

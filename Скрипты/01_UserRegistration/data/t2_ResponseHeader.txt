@@ -1,0 +1,27 @@
+HTTP/1.1 200 OK
+Content-Type: text/javascript; charset=utf-8
+Content-Encoding: gzip
+Last-Modified: Thu, 02 Jul 2020 23:55:53 GMT
+Vary: Accept-Encoding
+Server: Microsoft-IIS/8.5
+Access-Control-Allow-Origin: *
+X-AspNetMvc-Version: 5.2
+X-AppVersion: 20200627_24748888
+X-Activity-Id: 00000000-01ff-440f-ab4d-68647d57644f
+X-Az: {did:3e767ce6d8354e0ca9b7fbecc6bc0af7, rid: 12, sn: neurope-prod-spartan, dt: 2020-06-24T21:15:55.6224006Z, bt: 2020-06-28T00:13:24.3084184Z}
+nel: {"report_to":"network-errors","max_age":604800,"success_fraction":0.001,"failure_fraction":1.0}
+report-to: {"group":"network-errors","max_age":604800,"endpoints":[{"url":"https://deff.nelreports.net/api/report?cat=msn"}]}
+X-Content-Type-Options: nosniff
+X-FRAME-OPTIONS: SAMEORIGIN
+X-S1: 2020-07-02T23:55:53
+X-S2: 2020-07-02T23:55:53
+Timing-Allow-Origin: *
+X-Powered-By: ASP.NET
+Access-Control-Allow-Methods: HEAD,GET,OPTIONS
+X-XSS-Protection: 1
+Content-Length: 72738
+Cache-Control: public, no-transform, max-age=31108809
+Expires: Fri, 02 Jul 2021 23:56:23 GMT
+Date: Tue, 07 Jul 2020 22:36:14 GMT
+Connection: keep-alive
+

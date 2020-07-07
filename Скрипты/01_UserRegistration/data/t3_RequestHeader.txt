@@ -1,0 +1,10 @@
+GET /sc/ea/4996b9.woff HTTP/1.1
+Accept: */*
+Host: static-spartan-neu-s-msn-com.akamaized.net
+Connection: Keep-Alive
+Referer: https://www.msn.com/spartan/ientp?locale=ru-RU&market=RU&enableregulatorypsm=0&enablecpsm=0&NTLogo=0&IsFRE=0
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Origin: https://www.msn.com
+Accept-Encoding: gzip, deflate
+

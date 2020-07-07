@@ -1,0 +1,13 @@
+[t5]
+FileName1=t5_efaidnbmnnnibpcajpcglclefindmkaj.json
+URL1=https://chrome.google.com/webstore/inlineinstall/detail/efaidnbmnnnibpcajpcglclefindmkaj
+Total=2
+ContentType=application/json
+SnapshotXmlFile=snapshot_5.xml
+RequestHeaderFile=t5_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t5_ResponseHeader.txt
+FileName2=t5_ssl-translate-ranker-model.txt
+URL2=https://chromium-i18n.appspot.com/ssl-translate-ranker-model
+[ProtocolInfo]
+ProtocolId=QTWeb

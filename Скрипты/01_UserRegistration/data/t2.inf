@@ -1,0 +1,11 @@
+[t2]
+FileName1=t2_kernel-5c9b3d8d.html
+URL1=https://static-spartan-neu-s-msn-com.akamaized.net/spartan/ru-ru/_ssc/js/b5dff51-e73237b/kernel-5c9b3d8d.js?ver=20200627_24748888&fdhead=1s-bing-news,bbh20200521msn,msnallexpusers,powert,testtreattest,vebudumu04302020
+Total=1
+ContentType=text/javascript
+SnapshotXmlFile=snapshot_2.xml
+RequestHeaderFile=t2_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t2_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb

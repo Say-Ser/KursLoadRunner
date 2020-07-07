@@ -1,0 +1,11 @@
+[t3]
+FileName1=t3_4996b9.html
+URL1=https://static-spartan-neu-s-msn-com.akamaized.net/sc/ea/4996b9.woff
+Total=1
+ContentType=application/font-woff
+SnapshotXmlFile=snapshot_3.xml
+RequestHeaderFile=t3_RequestHeader.txt
+RequestBodyFile=NONE
+ResponseHeaderFile=t3_ResponseHeader.txt
+[ProtocolInfo]
+ProtocolId=QTWeb
