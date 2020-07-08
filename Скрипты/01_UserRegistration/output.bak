@@ -1,4 +1,4 @@
-Virtual User Script started at: 08.07.2020 1:41:48
+Virtual User Script started at: 08.07.2020 1:42:12
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -17,7 +17,7 @@ Action.c(4): Found resource "http://localhost/WebTours/images/webtours.png" in H
 Action.c(4): Detected non-resource "http://localhost/cgi-bin/nav.pl?in=home" in "http://localhost/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(4): Detected non-resource "http://localhost/WebTours/home.html" in "http://localhost/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(4): Found resource "http://localhost/WebTours/images/mer_login.gif" in HTML "http://localhost/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
-Action.c(4): web_url("WebTours") was successful, 10071 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(4): web_url("WebTours") was successful, 10072 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(15): web_link("sign up now") started  	[MsgId: MMSG-26355]
 Action.c(15): Linking to "http://localhost/cgi-bin/login.pl?username=&password=&getInfo=true", Target Frame=""  	[MsgId: MMSG-27994]
 Action.c(15): Found resource "http://localhost/WebTours/profileValidate.js" in HTML "http://localhost/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]

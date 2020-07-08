@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\user\Desktop\KursLoadRunner\Скрипты\04_ReserveRoundtripticket
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\user\desktop\kursloadrunner\скрипты\04_reserveroundtripticket\\logfile.log
+c:\users\user\desktop\kursloadrunner\скрипты\04_reserveroundtripticket\\combined_04_ReserveRoundtripticket.c
+c:\users\user\desktop\kursloadrunner\скрипты\04_reserveroundtripticket\\pre_cci.c

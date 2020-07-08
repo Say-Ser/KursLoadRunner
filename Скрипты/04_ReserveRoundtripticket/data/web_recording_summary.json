@@ -1,0 +1,360 @@
+{
+  "FilterHeaders": [
+    {
+      "Header": "user-agent",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-none-match",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "if-modified-since",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "cache-control",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-language",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept-encoding",
+      "IncludeInScript": false
+    },
+    {
+      "Header": "accept",
+      "IncludeInScript": false
+    }
+  ],
+  "FilterResources": [
+    {
+      "IsNonResource": true,
+      "type": "text/html"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/png"
+    },
+    {
+      "IsNonResource": false,
+      "type": "image/gif"
+    }
+  ],
+  "GeneralInfo": {
+    "BrowserVersion": "",
+    "MaxUsedConnections": 11,
+    "RecordedBrowser": "Internet Explorer",
+    "RecordingDate": "июл-08-2020",
+    "RecordingDuration": 71500,
+    "RecordingTimeStamp": 1594225314,
+    "TotalBytesReceived": 36849,
+    "TotalBytesSent": 15151,
+    "TotalRequests": 31
+  },
+  "HostInfo": [
+    {
+      "DomainName": "localhost",
+      "Domains": [
+        {
+          "HTTPVersion": "HTTP/1.1",
+          "IP": "[::1]",
+          "IncludeInScript": true,
+          "Name": "localhost",
+          "Port": 80,
+          "Requests": [
+            {
+              "CompressionType": "",
+              "DataType": "",
+              "DownloadTime": 15,
+              "EventId": 122,
+              "HttpStatus": 304,
+              "Size": 0,
+              "URL": "http://localhost/WebTours/home.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 119,
+              "HttpStatus": 200,
+              "Size": 1490,
+              "URL": "http://localhost/cgi-bin/nav.pl?in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 32,
+              "EventId": 114,
+              "HttpStatus": 200,
+              "Size": 686,
+              "URL": "http://localhost/cgi-bin/welcome.pl?signOff=1"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 111,
+              "HttpStatus": 200,
+              "Size": 806,
+              "URL": "http://localhost/WebTours/images/bookanother.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 108,
+              "HttpStatus": 200,
+              "Size": 2536,
+              "URL": "http://localhost/cgi-bin/reservations.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 46,
+              "EventId": 105,
+              "HttpStatus": 200,
+              "Size": 2732,
+              "URL": "http://localhost/cgi-bin/reservations.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 102,
+              "HttpStatus": 200,
+              "Size": 3580,
+              "URL": "http://localhost/cgi-bin/reservations.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 15,
+              "EventId": 93,
+              "HttpStatus": 403,
+              "Size": 219,
+              "URL": "http://localhost/WebTours/classes/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 91,
+              "HttpStatus": 403,
+              "Size": 219,
+              "URL": "http://localhost/WebTours/classes/"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 0,
+              "EventId": 89,
+              "HttpStatus": 200,
+              "Size": 688,
+              "URL": "http://localhost/WebTours/images/home.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 87,
+              "HttpStatus": 200,
+              "Size": 758,
+              "URL": "http://localhost/WebTours/images/button_next.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 16,
+              "EventId": 85,
+              "HttpStatus": 200,
+              "Size": 726,
+              "URL": "http://localhost/WebTours/images/in_flights.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 80,
+              "HttpStatus": 200,
+              "Size": 1482,
+              "URL": "http://localhost/cgi-bin/nav.pl?page=menu&in=flights"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 78,
+              "HttpStatus": 200,
+              "Size": 4246,
+              "URL": "http://localhost/cgi-bin/reservations.pl?page=welcome"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 75,
+              "HttpStatus": 200,
+              "Size": 616,
+              "URL": "http://localhost/cgi-bin/welcome.pl?page=search"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 47,
+              "EventId": 58,
+              "HttpStatus": 200,
+              "Size": 726,
+              "URL": "http://localhost/WebTours/images/flights.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 0,
+              "EventId": 56,
+              "HttpStatus": 200,
+              "Size": 751,
+              "URL": "http://localhost/WebTours/images/signoff.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 54,
+              "HttpStatus": 200,
+              "Size": 733,
+              "URL": "http://localhost/WebTours/images/itinerary.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 0,
+              "EventId": 52,
+              "HttpStatus": 200,
+              "Size": 688,
+              "URL": "http://localhost/WebTours/images/in_home.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 45,
+              "HttpStatus": 200,
+              "Size": 1482,
+              "URL": "http://localhost/cgi-bin/nav.pl?page=menu&in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 42,
+              "HttpStatus": 200,
+              "Size": 919,
+              "URL": "http://localhost/cgi-bin/login.pl?intro=true"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 31,
+              "EventId": 39,
+              "HttpStatus": 200,
+              "Size": 481,
+              "URL": "http://localhost/cgi-bin/login.pl"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 30,
+              "HttpStatus": 404,
+              "Size": 209,
+              "URL": "http://localhost/favicon.ico"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/gif",
+              "DownloadTime": 31,
+              "EventId": 28,
+              "HttpStatus": 200,
+              "Size": 679,
+              "URL": "http://localhost/WebTours/images/mer_login.gif"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 62,
+              "EventId": 25,
+              "HttpStatus": 200,
+              "Size": 1486,
+              "URL": "http://localhost/cgi-bin/nav.pl?in=home"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 21,
+              "HttpStatus": 200,
+              "Size": 1361,
+              "URL": "http://localhost/WebTours/home.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 32,
+              "EventId": 19,
+              "HttpStatus": 200,
+              "Size": 601,
+              "URL": "http://localhost/WebTours/images/hp_logo.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "image/png",
+              "DownloadTime": 16,
+              "EventId": 17,
+              "HttpStatus": 200,
+              "Size": 4187,
+              "URL": "http://localhost/WebTours/images/webtours.png"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 47,
+              "EventId": 14,
+              "HttpStatus": 200,
+              "Size": 686,
+              "URL": "http://localhost/cgi-bin/welcome.pl?signOff=true"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 12,
+              "HttpStatus": 200,
+              "Size": 710,
+              "URL": "http://localhost/WebTours/header.html"
+            },
+            {
+              "CompressionType": "",
+              "DataType": "text/html",
+              "DownloadTime": 0,
+              "EventId": 10,
+              "HttpStatus": 200,
+              "Size": 366,
+              "URL": "http://localhost/WebTours/"
+            }
+          ],
+          "SSLCipher": "None",
+          "SSLVersion": "None"
+        }
+      ],
+      "IncludeInScript": true
+    }
+  ],
+  "WebSocket": {
+    "IncludeInScript": false,
+    "IsScriptIncludeWebSocket": false
+  },
+  "NumberOfCorrelations": 4
+}

@@ -1,0 +1,27 @@
+[
+    {
+        "transactionName": "WebTours",
+        "rawStartTime": 1594226956098,
+        "rawEndTime": 1594226956302
+    },
+    {
+        "transactionName": "LoginUser",
+        "rawStartTime": 1594226956346,
+        "rawEndTime": 1594226956492
+    },
+    {
+        "transactionName": "DeleteItinerary",
+        "rawStartTime": 1594226956534,
+        "rawEndTime": 1594226956767
+    },
+    {
+        "transactionName": "Logout",
+        "rawStartTime": 1594226956828,
+        "rawEndTime": 1594226956952
+    },
+    {
+        "transactionName": "DeleteFlightsReservation",
+        "rawStartTime": 1594226956061,
+        "rawEndTime": 1594226957007
+    }
+]

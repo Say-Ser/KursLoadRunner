@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\user\Desktop\KursLoadRunner\Скрипты\03_DeleteFlightsReservation
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\user\desktop\kursloadrunner\скрипты\03_deleteflightsreservation\\logfile.log
+c:\users\user\desktop\kursloadrunner\скрипты\03_deleteflightsreservation\\combined_03_DeleteFlightsReservation.c
+c:\users\user\desktop\kursloadrunner\скрипты\03_deleteflightsreservation\\pre_cci.c

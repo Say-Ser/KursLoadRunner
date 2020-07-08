@@ -1,0 +1,37 @@
+[
+    {
+        "transactionName": "WebTours",
+        "rawStartTime": 1594226693501,
+        "rawEndTime": 1594226693724
+    },
+    {
+        "transactionName": "LoginUser",
+        "rawStartTime": 1594226693779,
+        "rawEndTime": 1594226693975
+    },
+    {
+        "transactionName": "SearchReis",
+        "rawStartTime": 1594226694018,
+        "rawEndTime": 1594226694208
+    },
+    {
+        "transactionName": "ChousReis",
+        "rawStartTime": 1594226694263,
+        "rawEndTime": 1594226694379
+    },
+    {
+        "transactionName": "InputPassData",
+        "rawStartTime": 1594226694448,
+        "rawEndTime": 1594226694549
+    },
+    {
+        "transactionName": "Logout",
+        "rawStartTime": 1594226694621,
+        "rawEndTime": 1594226694733
+    },
+    {
+        "transactionName": "FlightsReservation",
+        "rawStartTime": 1594226693474,
+        "rawEndTime": 1594226694805
+    }
+]

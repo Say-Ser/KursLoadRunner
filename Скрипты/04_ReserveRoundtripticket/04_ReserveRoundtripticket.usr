@@ -17,9 +17,9 @@ LastModifyVer=12.55.0.911
 ParamLeftBrace={
 ParamRightBrace=}
 ScriptLanguage=C
-LastCodeGenerationVer=
+LastCodeGenerationVer=12.55.0.911
 DisableRegenerate=0
-Encoding=
+Encoding=ANSI
 Description=
 ScriptLocale=ru-RU
 [Actions]
@@ -36,24 +36,32 @@ Default Profile=default.cfg
 globals.h=
 [Modified Actions]
 vuser_init=0
-Action=0
+Action=1
 vuser_end=0
 [Recorded Actions]
 vuser_init=0
-Action=0
+Action=1
 vuser_end=0
 [Replayed Actions]
-vuser_init=0
-Action=0
-vuser_end=0
+vuser_init=1
+Action=1
+vuser_end=1
 [Interpreters]
 vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order=
+Order="Login__*delimiter*__ReserveRoundtripticket__*delimiter*__WebTours__*delimiter*__SearchReis__*delimiter*__ChousReis__*delimiter*__InputPassData__*delimiter*__Logout"
 [StateManagement]
-LastReplayStatus=0
+LastReplayStatus=1
 [ActiveReplay]
-LastReplayedRunName=
-ActiveRunName=
+LastReplayedRunName=result1
+ActiveRunName=result1
+[Transactions]
+Login=
+ReserveRoundtripticket=
+WebTours=
+SearchReis=
+ChousReis=
+InputPassData=
+Logout=

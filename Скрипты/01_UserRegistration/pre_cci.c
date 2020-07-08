@@ -2598,6 +2598,10 @@ vuser_init()
 # 1 "Action.c" 1
 Action()
 {
+	lr_start_transaction("UserRegestration");
+
+	
+lr_start_transaction("WebTours");
 
 	web_url("WebTours", 
 		"URL=http://localhost/WebTours/", 
@@ -2607,15 +2611,21 @@ Action()
 		"Snapshot=t4.inf", 
 		"Mode=HTML", 
 		"LAST");
+lr_end_transaction("WebTours", 2);
 
 	lr_think_time(18);
+	
+lr_start_transaction("GoToSingUp");
 
 	web_link("sign up now", 
 		"Text=sign up now", 
 		"Snapshot=t5.inf", 
 		"LAST");
+lr_end_transaction("GoToSingUp", 2);
 
 	lr_think_time(41);
+
+	lr_start_transaction("InputData");
 
 	web_submit_form("login.pl", 
 		"Snapshot=t6.inf", 
@@ -2630,6 +2640,11 @@ Action()
 		"Name=register.x", "Value=22", "ENDITEM", 
 		"Name=register.y", "Value=6", "ENDITEM", 
 		"LAST");
+	
+	lr_end_transaction("InputData", 2);
+
+	
+lr_end_transaction("UserRegestration", 2);
 
 	return 0;
 }
