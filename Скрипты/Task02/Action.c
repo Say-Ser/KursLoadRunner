@@ -29,7 +29,7 @@ Action()
 		LAST);
 
 	lr_think_time(6);
-
+	web_reg_find("Text=Error","Fail=Found",LAST);
 	web_submit_form("reservations.pl", 
 		"Snapshot=t4.inf", 
 		ITEMDATA, 
@@ -44,15 +44,15 @@ Action()
 		"Name=findFlights.x", "Value=48", ENDITEM, 
 		"Name=findFlights.y", "Value=6", ENDITEM, 
 		LAST);
+	web_reg_find("Text=Error","Fail=Found",LAST);
 
-	web_submit_form("reservations.pl_2",
-		"Snapshot=t5.inf",
-		ITEMDATA,
-		"Name=outboundFlight", "Value=041;312;07/13/2020", ENDITEM,
-		"Name=reserveFlights.x", "Value=31", ENDITEM,
-		"Name=reserveFlights.y", "Value=3", ENDITEM,
+	web_submit_form("reservations.pl_2", 
+		"Snapshot=t5.inf", 
+		ITEMDATA, 
+		"Name=outboundFlight", "Value=020;338;07/13/2020", ENDITEM, 
+		"Name=reserveFlights.x", "Value=58", ENDITEM, 
+		"Name=reserveFlights.y", "Value=5", ENDITEM, 
 		LAST);
-
 	lr_think_time(18);
 
 	web_submit_form("reservations.pl_3", 

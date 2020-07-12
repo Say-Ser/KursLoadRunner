@@ -1,0 +1,9 @@
+-+
+-DCCI
+-D_IDA_XL
+-DWINNT
+-IC:\Users\user\Desktop\KursLoadRunner\Скрипты\Task04
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\user\desktop\kursloadrunner\скрипты\task04\\logfile.log
+c:\users\user\desktop\kursloadrunner\скрипты\task04\\combined_Task04.c
+c:\users\user\desktop\kursloadrunner\скрипты\task04\\pre_cci.c
