@@ -22,6 +22,7 @@ DisableRegenerate=0
 Encoding=ANSI
 Description=
 ScriptLocale=ru-RU
+DFERebrandFlag=Done
 [Actions]
 vuser_init=vuser_init.c
 Action=Action.c

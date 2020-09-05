@@ -1,2 +1,1 @@
-"flightID=128001120-1000193-%0D%0A&flightID=1280000-15-%0D%0A&flightID=128001500-261768-%0D%0A&"
-".cgifields=1&.cgifields=3&.cgifields=2&removeAllFlights.x=49&removeAllFlights.y=11"
+"1=on&removeAllFlights.x=73&removeAllFlights.y=15"

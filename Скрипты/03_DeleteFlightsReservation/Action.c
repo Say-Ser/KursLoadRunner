@@ -17,7 +17,7 @@ lr_start_transaction("WebTours");
 		
 lr_end_transaction("WebTours", LR_AUTO);
 
-	lr_think_time(11);
+	lr_think_time(10);
 
 	
 lr_start_transaction("LoginUser");
@@ -43,7 +43,22 @@ lr_start_transaction("DeleteItinerary");
 
 	lr_think_time(24);
 
-	web_submit_data("itinerary.pl", 
+	
+web_submit_data("itinerary.pl", 
+	    "Action=http://localhost/cgi-bin/itinerary.pl", 
+	    "Method=POST", 
+		"RecContentType=text/html", 
+		"Referer=http://localhost/cgi-bin/itinerary.pl", 
+		"Snapshot=t1.inf", 
+		"Mode=HTML", 
+		ITEMDATA, 
+		"Name=1", "Value=on", ENDITEM, 
+		"Name=removeAllFlights.x", "Value=73", ENDITEM, 
+		"Name=removeAllFlights.y", "Value=15", ENDITEM, 
+		LAST);
+	
+	
+/*	web_submit_data("itinerary.pl", 
 		"Action=http://localhost/cgi-bin/itinerary.pl", 
 		"Method=POST", 
 		"RecContentType=text/html", 
@@ -60,7 +75,11 @@ lr_start_transaction("DeleteItinerary");
 		"Name=removeAllFlights.x", "Value=49", ENDITEM, 
 		"Name=removeAllFlights.y", "Value=11", ENDITEM, 
 		LAST);
+	*/
+	
 lr_end_transaction("DeleteItinerary", LR_AUTO);
+
+	
 
 
 lr_start_transaction("Logout");
