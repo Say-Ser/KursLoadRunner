@@ -129,13 +129,13 @@
 ]
 >
 <Report ver="2.0" tmZone="RTZ 2 (зима)">
-<General productName="Vugen" productVer="12" os="" host="NB-03586"><DocLocation><![CDATA[C:\Users\user\Desktop\KursLoadRunner\Скрипты\01_UserRegistration]]></DocLocation></General>
+<General productName="Vugen" productVer="2020" os="" host="NB-03586"><DocLocation><![CDATA[C:\Users\user\Desktop\KursLoadRunner\KursLoadRunner\Скрипты\01_UserRegistration]]></DocLocation></General>
 <Doc rID="T1"   productName= "Vugen"  >
 <DName><![CDATA[01_UserRegistration]]></DName>
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="08.07.2020 - 19:38:24" eTime="08.07.2020 - 19:38:24" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="05.09.2020 - 19:05:48" eTime="05.09.2020 - 19:05:48" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -146,8 +146,8 @@
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Url: WebTours]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[08.07.2020 - 19:38:25]]></Time>
-<TimeTick>1594226305</TimeTick>
+<Time><![CDATA[05.09.2020 - 19:05:48]]></Time>
+<TimeTick>1599321948</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="9" status="Passed" >
 <Disp><![CDATA[Url: WebTours]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -158,8 +158,8 @@
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Link: sign up now]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[08.07.2020 - 19:38:25]]></Time>
-<TimeTick>1594226305</TimeTick>
+<Time><![CDATA[05.09.2020 - 19:05:48]]></Time>
+<TimeTick>1599321948</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="10" status="Passed" >
 <Disp><![CDATA[Link: sign up now]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -170,8 +170,8 @@
 <Step rID="T7">
 <Obj plainTxt="False" ><![CDATA[Submit Form: login.pl]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[08.07.2020 - 19:38:25]]></Time>
-<TimeTick>1594226305</TimeTick>
+<Time><![CDATA[05.09.2020 - 19:05:48]]></Time>
+<TimeTick>1599321948</TimeTick>
 <NodeArgs eType="General" icon="6" nRep="11" status="Passed" >
 <Disp><![CDATA[Submit Form: login.pl]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -179,7 +179,7 @@
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="08.07.2020 - 19:38:24" eTime="08.07.2020 - 19:38:25" passed="3" failed="0" warnings="0" ></Summary>
+<Summary sTime="05.09.2020 - 19:05:48" eTime="05.09.2020 - 19:05:48" passed="3" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
@@ -190,12 +190,12 @@
 </DIter>
 <Action rID="T8">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="08.07.2020 - 19:38:25" eTime="08.07.2020 - 19:38:25" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="05.09.2020 - 19:05:48" eTime="05.09.2020 - 19:05:48" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="14" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="08.07.2020 - 19:38:22" eTime="08.07.2020 - 19:38:26" passed="3" failed="0" warnings="0" ></Summary>
+<Summary sTime="05.09.2020 - 19:05:44" eTime="05.09.2020 - 19:05:48" passed="3" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
 <Disp><![CDATA[Test 01_UserRegistration Summary]]></Disp>
 </NodeArgs>
