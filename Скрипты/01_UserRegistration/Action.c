@@ -5,6 +5,8 @@ Action()
 	
 lr_start_transaction("WebTours");
 
+web_reg_find("Text=Error","Fail=Found",LAST);
+
 	web_url("WebTours", 
 		"URL=http://localhost/WebTours/", 
 		"Resource=0", 
@@ -28,16 +30,18 @@ lr_end_transaction("GoToSingUp", LR_AUTO);
 	lr_think_time(41);
 
 	lr_start_transaction("InputData");
+	
+	web_reg_find("Text=Error","Fail=Found",LAST);
 
 	web_submit_form("login.pl", 
 		"Snapshot=t6.inf", 
 		ITEMDATA, 
-		"Name=username", "Value=Major", ENDITEM, 
-		"Name=password", "Value=pain", ENDITEM, 
-		"Name=passwordConfirm", "Value=pain", ENDITEM, 
-		"Name=firstName", "Value=", ENDITEM, 
-		"Name=lastName", "Value=", ENDITEM, 
-		"Name=address1", "Value=", ENDITEM, 
+		"Name=username", "Value={Login}", ENDITEM, 
+		"Name=password", "Value={Password}", ENDITEM, 
+		"Name=passwordConfirm", "Value={Password}", ENDITEM, 
+		"Name=firstName", "Value={Name}", ENDITEM, 
+		"Name=lastName", "Value={FirstName}", ENDITEM, 
+		"Name=address1", "Value={Addres}", ENDITEM, 
 		"Name=address2", "Value=", ENDITEM, 
 		"Name=register.x", "Value=22", ENDITEM, 
 		"Name=register.y", "Value=6", ENDITEM, 

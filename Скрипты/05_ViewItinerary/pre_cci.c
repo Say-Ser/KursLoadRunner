@@ -2599,6 +2599,8 @@ lr_start_transaction("ViewItinerary");
 
 	lr_start_transaction("WebTours");	
 	
+	web_reg_find("Text=Error","Fail=Found","LAST");
+	
 	web_url("WebTours", 
 		"URL=http://localhost/WebTours/", 
 		"Resource=0", 
@@ -2609,15 +2611,17 @@ lr_start_transaction("ViewItinerary");
 		"LAST");
 	lr_end_transaction("WebTours", 2);
 	
+lr_think_time(11);
 
-
-	lr_think_time(11);
 lr_start_transaction("Login");
+
+web_reg_find("Text=Error","Fail=Found","LAST");
+
 	web_submit_form("login.pl", 
 		"Snapshot=t2.inf", 
 		"ITEMDATA", 
-		"Name=username", "Value=major", "ENDITEM", 
-		"Name=password", "Value=pain", "ENDITEM", 
+		"Name=username", "Value={Login}", "ENDITEM", 
+		"Name=password", "Value={Password}", "ENDITEM", 
 		"Name=login.x", "Value=44", "ENDITEM", 
 		"Name=login.y", "Value=15", "ENDITEM", 
 		"LAST");

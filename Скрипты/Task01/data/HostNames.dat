@@ -1,9 +1,0 @@
-[hosts]
-localhost=
-ssl.gstatic.com=
-translate.googleapis.com=
-chrome.google.com=
-chromium-i18n.appspot.com=
-clients1.google.com=
-www.gstatic.com=
-clients2.google.com=

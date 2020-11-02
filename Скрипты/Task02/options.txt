@@ -1,9 +1,0 @@
--+
--DCCI
--D_IDA_XL
--DWINNT
--IC:\Users\user\Desktop\KursLoadRunner\Скрипты\Task02
--IC:\Program Files (x86)\HPE\LoadRunner\include
--ec:\users\user\desktop\kursloadrunner\скрипты\task02\\logfile.log
-c:\users\user\desktop\kursloadrunner\скрипты\task02\\combined_Task02.c
-c:\users\user\desktop\kursloadrunner\скрипты\task02\\pre_cci.c

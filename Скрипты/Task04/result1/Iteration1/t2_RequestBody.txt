@@ -1,2 +1,0 @@
-"userSession=129167.303928716zzttAtDpVQfiDDDDDQiztpcfQVHf&username=major&password=pai&JSFormSub"
-"mit=off&login.x=41&login.y=5"

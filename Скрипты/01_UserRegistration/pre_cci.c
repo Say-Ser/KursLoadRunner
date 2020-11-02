@@ -1,5 +1,5 @@
-# 1 "c:\\users\\user\\desktop\\kursloadrunner\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c"
-# 1 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/lrun.h" 1
+# 1 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c"
+# 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h" 1
  
  
 
@@ -26,7 +26,7 @@
 
 
 
-# 103 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/lrun.h"
+# 103 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 
 
 
@@ -187,7 +187,7 @@ int lr_generate_uuid_free(lr_uuid_t uuid);
 int lr_generate_uuid_on_buf(lr_uuid_t buf);
 
    
-# 273 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/lrun.h"
+# 273 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 int lr_start_distributed_transaction  (char * transaction_name, lr_uuid_t correlator, long timeout  );
 
    
@@ -428,11 +428,11 @@ int   lr_msg (char * fmt, ...);
 int   lr_debug_message (unsigned int msg_class,
 									    char * format,
 										...);
-# 513 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/lrun.h"
+# 513 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 void   lr_new_prefix (int type,
                                  char * filename,
                                  int line);
-# 516 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/lrun.h"
+# 516 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 int   lr_log_message (char * fmt, ...);
 int   lr_message (char * fmt, ...);
 int   lr_error_message (char * fmt, ...);
@@ -446,7 +446,7 @@ int   lr_fail_trans_with_error (char * fmt, ...);
  
  
  
-# 540 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/lrun.h"
+# 540 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 
  
  
@@ -481,7 +481,7 @@ int   lr_eval_string_ext (const char *in_str,
                                      unsigned long const options,
                                      const char *file,
 								     long const line);
-# 574 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/lrun.h"
+# 574 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 void   lr_eval_string_ext_free (char * * pstr);
 
  
@@ -505,7 +505,7 @@ void   lr_eval_string_ext_free (char * * pstr);
  
 int lr_param_increment (char * dst_name,
                               char * src_name);
-# 597 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/lrun.h"
+# 597 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 
 
 
@@ -530,7 +530,7 @@ int	  lr_save_var (char *              param_val,
 							  unsigned long const param_val_len,
 							  unsigned long const options,
 							  char *			  param_name);
-# 621 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/lrun.h"
+# 621 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 int   lr_save_string (const char * param_val, const char * param_name);
 
 
@@ -554,7 +554,7 @@ int   lr_convert_double_to_double (const char *source_param_name, const char *fo
  
  
  
-# 700 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/lrun.h"
+# 700 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 void   lr_save_datetime (const char *format, int offset, const char *name);
 
 
@@ -616,7 +616,7 @@ char * lr_table_get_cell_by_col_name (char * param_name, int row, const char* co
 int lr_table_get_column_name_by_index (char * param_name, int col, 
 											char * * const col_name,
 											size_t * col_name_len);
-# 761 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/lrun.h"
+# 761 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 
 int lr_table_get_column_name_by_index_free (char * col_name);
 
@@ -624,7 +624,7 @@ int lr_table_get_column_name_by_index_free (char * col_name);
  
  
  
-# 776 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/lrun.h"
+# 776 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 int   lr_zip (const char* param1, const char* param2);
 int   lr_unzip (const char* param1, const char* param2);
 
@@ -649,12 +649,12 @@ int   lr_param_substit (char * file,
                                    size_t const in_len,
                                    char * * const out_str,
                                    size_t * const out_len);
-# 800 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/lrun.h"
+# 800 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 void   lr_param_substit_free (char * * pstr);
 
 
  
-# 812 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/lrun.h"
+# 812 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 
 
 
@@ -663,14 +663,14 @@ void   lr_param_substit_free (char * * pstr);
 char *   lrfnc_eval_string (char * str,
                                       char * file_name,
                                       long const line_num);
-# 820 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/lrun.h"
+# 820 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 
 
 int   lrfnc_save_string ( const char * param_val,
                                      const char * param_name,
                                      const char * file_name,
                                      long const line_num);
-# 826 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/lrun.h"
+# 826 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 
 int   lrfnc_free_parameter (const char * param_name );
 
@@ -697,7 +697,7 @@ int lr_save_searched_string(char * buffer, long buf_size, unsigned int occurrenc
 char *   lr_string (char * str);
 
  
-# 929 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/lrun.h"
+# 929 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 
 int   lr_save_value (char * param_val,
                                 unsigned long const param_val_len,
@@ -705,7 +705,7 @@ int   lr_save_value (char * param_val,
                                 char * param_name,
                                 char * file_name,
                                 long const line_num);
-# 936 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/lrun.h"
+# 936 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 
 
  
@@ -728,7 +728,7 @@ int   lr_printf (char * fmt, ...);
  
 int   lr_set_debug_message (unsigned int msg_class,
                                        unsigned int swtch);
-# 958 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/lrun.h"
+# 958 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 unsigned int   lr_get_debug_message (void);
 
 
@@ -758,7 +758,7 @@ int *   lr_localtime (long offset);
 int   lr_send_port (long port);
 
 
-# 1034 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/lrun.h"
+# 1034 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 
 
 
@@ -776,10 +776,10 @@ void vuser_declaration (void);
 
 
 
-# 1063 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/lrun.h"
+# 1063 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 
 
-# 1075 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/lrun.h"
+# 1075 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h"
 
 
 
@@ -857,7 +857,6 @@ VTCERR   vtc_query_row(PVCI pvci, int rowIndex, char * **outcolumns, char * **ou
 VTCERR   vtc_send_message(PVCI pvci, char * column, char * message, unsigned short *outRc);
 VTCERR   vtc_send_if_unique(PVCI pvci, char * column, char * message, unsigned short *outRc);
 VTCERR   vtc_send_row1(PVCI pvci, char * columnNames, char * messages, char * delimiter, unsigned char sendflag, unsigned short *outUpdates);
-VTCERR   vtc_search_row(PVCI pvci, char * columnNames, char * messages, char * delimiter, char * **outcolumns, char * **outvalues);
 VTCERR   vtc_update_message(PVCI pvci, char * column, int index , char * message, unsigned short *outRc);
 VTCERR   vtc_update_message_ifequals(PVCI pvci, char * columnName, int index,	char * message, char * ifmessage, unsigned short 	*outRc);
 VTCERR   vtc_update_row1(PVCI pvci, char * columnNames, int index , char * messages, char * delimiter, unsigned short *outUpdates);
@@ -877,18 +876,14 @@ VTCERR   vtc_create_column(PVCI pvci, char * column,unsigned short *outRc);
 VTCERR   vtc_column_size(PVCI pvci, char * column, int *size);
 void   vtc_free(char * msg);
 void   vtc_free_list(char * *msglist);
-VTCERR   vtc_update_all_message_ifequals(PVCI pvci, char * columnNames, char * message, char * ifmessage, char * delimiter, unsigned short *outRc);
 
 VTCERR   lrvtc_connect(char * servername, int portnum, int options);
-VTCERR   lrvtc_connect_ex(char * vtc_first_param, ...);
-VTCERR   lrvtc_connect_ex_no_ellipsis(const char *vtc_first_param, char ** arguments, int argCount);
 VTCERR   lrvtc_disconnect();
 VTCERR   lrvtc_query_column(char * columnName, int columnIndex);
 VTCERR   lrvtc_query_row(int columnIndex);
 VTCERR   lrvtc_send_message(char * columnName, char * message);
 VTCERR   lrvtc_send_if_unique(char * columnName, char * message);
 VTCERR   lrvtc_send_row1(char * columnNames, char * messages, char * delimiter, unsigned char sendflag);
-VTCERR   lrvtc_search_row(char * columnNames, char * messages, char * delimiter);
 VTCERR   lrvtc_update_message(char * columnName, int index , char * message);
 VTCERR   lrvtc_update_message_ifequals(char * columnName, int index, char * message, char * ifmessage);
 VTCERR   lrvtc_update_row1(char * columnNames, int index , char * messages, char * delimiter);
@@ -907,7 +902,6 @@ VTCERR   lrvtc_drop_index(char * columnName);
 VTCERR   lrvtc_clear_row(int rowIndex);
 VTCERR   lrvtc_create_column(char * columnName);
 VTCERR   lrvtc_column_size(char * columnName);
-VTCERR   lrvtc_update_all_message_ifequals(char * columnNames, char * message, char * ifmessage, char * delimiter);
 
 
 
@@ -968,9 +962,9 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\user\\desktop\\kursloadrunner\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c" 2
+# 1 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c" 2
 
-# 1 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/SharedParameter.h" 1
+# 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h" 1
 
 
 
@@ -978,7 +972,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
  
  
  
-# 100 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/SharedParameter.h"
+# 100 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h"
 
 
 
@@ -1010,7 +1004,6 @@ extern VTCERR2  vtc_query_row(PVCI2 pvci, int columnIndex, char ***outcolumns, c
 extern VTCERR2  vtc_send_message(PVCI2 pvci, char *column, char *message, unsigned short *outRc);
 extern VTCERR2  vtc_send_if_unique(PVCI2 pvci, char *column, char *message, unsigned short *outRc);
 extern VTCERR2  vtc_send_row1(PVCI2 pvci, char *columnNames, char *messages, char *delimiter,  unsigned char sendflag, unsigned short *outUpdates);
-extern VTCERR2  vtc_search_row(PVCI2 pvci, char *columnNames, char *messages, char *delimiter, char ***outcolumns, char ***outvalues);
 extern VTCERR2  vtc_update_message(PVCI2 pvci, char *column, int index , char *message, unsigned short *outRc);
 extern VTCERR2  vtc_update_message_ifequals(PVCI2 pvci, char	*columnName, int index,	char *message, char	*ifmessage,	unsigned short 	*outRc);
 extern VTCERR2  vtc_update_row1(PVCI2 pvci, char *columnNames, int index , char *messages, char *delimiter, unsigned short *outUpdates);
@@ -1076,15 +1069,12 @@ extern void vtc_free_list(char **msglist);
  
 
 extern VTCERR2  lrvtc_connect(char *servername, int portnum, int options);
- 
- 
 extern VTCERR2  lrvtc_disconnect();
 extern VTCERR2  lrvtc_query_column(char *columnName, int columnIndex);
 extern VTCERR2  lrvtc_query_row(int columnIndex);
 extern VTCERR2  lrvtc_send_message(char *columnName, char *message);
 extern VTCERR2  lrvtc_send_if_unique(char *columnName, char *message);
 extern VTCERR2  lrvtc_send_row1(char *columnNames, char *messages, char *delimiter,  unsigned char sendflag);
-extern VTCERR2  lrvtc_search_row(char *columnNames, char *messages, char *delimiter);
 extern VTCERR2  lrvtc_update_message(char *columnName, int index , char *message);
 extern VTCERR2  lrvtc_update_message_ifequals(char *columnName, int index, char 	*message, char *ifmessage);
 extern VTCERR2  lrvtc_update_row1(char *columnNames, int index , char *messages, char *delimiter);
@@ -1136,7 +1126,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\user\\desktop\\kursloadrunner\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c" 2
+# 2 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c" 2
 
 # 1 "globals.h" 1
 
@@ -1145,7 +1135,7 @@ extern VTCERR2  lrvtc_noop();
  
  
 
-# 1 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/web_api.h" 1
+# 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/web_api.h" 1
 
 
 
@@ -1153,7 +1143,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 1 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/as_web.h" 1
+# 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/as_web.h" 1
 
 
 
@@ -1932,13 +1922,10 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 789 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/as_web.h"
+# 789 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/as_web.h"
 
 
-# 802 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/as_web.h"
-
-
-
+# 802 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/as_web.h"
 
 
 
@@ -1963,7 +1950,10 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 840 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/as_web.h"
+
+
+
+# 840 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/as_web.h"
 
  
  
@@ -2010,7 +2000,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 908 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/as_web.h"
+# 908 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/as_web.h"
 
 
   int
@@ -2105,7 +2095,7 @@ web_stream_set_custom_mpd(
 
 
 
-# 9 "C:\\Program Files (x86)\\Micro Focus\\Virtual User Generator\\include/web_api.h" 2
+# 9 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/web_api.h" 2
 
 
 
@@ -2596,14 +2586,14 @@ void
 
 
 
-# 3 "c:\\users\\user\\desktop\\kursloadrunner\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c" 2
+# 3 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\user\\desktop\\kursloadrunner\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c" 2
+# 4 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c" 2
 
 # 1 "Action.c" 1
 Action()
@@ -2612,6 +2602,8 @@ Action()
 
 	
 lr_start_transaction("WebTours");
+
+web_reg_find("Text=Error","Fail=Found","LAST");
 
 	web_url("WebTours", 
 		"URL=http://localhost/WebTours/", 
@@ -2636,16 +2628,18 @@ lr_end_transaction("GoToSingUp", 2);
 	lr_think_time(41);
 
 	lr_start_transaction("InputData");
+	
+	web_reg_find("Text=Error","Fail=Found","LAST");
 
 	web_submit_form("login.pl", 
 		"Snapshot=t6.inf", 
 		"ITEMDATA", 
-		"Name=username", "Value=Major", "ENDITEM", 
-		"Name=password", "Value=pain", "ENDITEM", 
-		"Name=passwordConfirm", "Value=pain", "ENDITEM", 
-		"Name=firstName", "Value=", "ENDITEM", 
-		"Name=lastName", "Value=", "ENDITEM", 
-		"Name=address1", "Value=", "ENDITEM", 
+		"Name=username", "Value={Login}", "ENDITEM", 
+		"Name=password", "Value={Password}", "ENDITEM", 
+		"Name=passwordConfirm", "Value={Password}", "ENDITEM", 
+		"Name=firstName", "Value={Name}", "ENDITEM", 
+		"Name=lastName", "Value={FirstName}", "ENDITEM", 
+		"Name=address1", "Value={Addres}", "ENDITEM", 
 		"Name=address2", "Value=", "ENDITEM", 
 		"Name=register.x", "Value=22", "ENDITEM", 
 		"Name=register.y", "Value=6", "ENDITEM", 
@@ -2658,12 +2652,12 @@ lr_end_transaction("UserRegestration", 2);
 
 	return 0;
 }
-# 5 "c:\\users\\user\\desktop\\kursloadrunner\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c" 2
+# 5 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\user\\desktop\\kursloadrunner\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c" 2
+# 6 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c" 2
 

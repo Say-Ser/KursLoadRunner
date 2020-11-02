@@ -1,10 +1,13 @@
 Action()
 {
 
+	
 lr_start_transaction("DeleteFlightsReservation");
 
 	
 lr_start_transaction("WebTours");
+
+web_reg_find("Text=Error","Fail=Found",LAST);
 
 	web_url("WebTours", 
 		"URL=http://localhost/WebTours/", 
@@ -22,6 +25,8 @@ lr_end_transaction("WebTours", LR_AUTO);
 	
 lr_start_transaction("LoginUser");
 
+web_reg_find("Text=Error","Fail=Found",LAST);
+
 	web_submit_form("login.pl", 
 		"Snapshot=t2.inf", 
 		ITEMDATA, 
@@ -35,6 +40,7 @@ lr_end_transaction("LoginUser", LR_AUTO);
 
 lr_start_transaction("DeleteItinerary");
 
+web_reg_find("Text=Error","Fail=Found",LAST);
 
 	web_image("Itinerary Button", 
 		"Alt=Itinerary Button", 
@@ -79,10 +85,9 @@ web_submit_data("itinerary.pl",
 	
 lr_end_transaction("DeleteItinerary", LR_AUTO);
 
-	
-
-
 lr_start_transaction("Logout");
+
+web_reg_find("Text=Error","Fail=Found",LAST);
 
 	web_url("welcome.pl", 
 		"URL=http://localhost/cgi-bin/welcome.pl?signOff=1", 

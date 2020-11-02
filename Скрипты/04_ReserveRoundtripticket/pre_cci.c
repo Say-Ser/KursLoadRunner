@@ -1,4 +1,4 @@
-# 1 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\04_reserveroundtripticket\\\\combined_04_ReserveRoundtripticket.c"
+# 1 "c:\\users\\user\\desktop\\kursloadrunner \227 \352\356\357\350\377\\kursloadrunner\\\361\352\360\350\357\362\373\\04_reserveroundtripticket\\\\combined_04_ReserveRoundtripticket.c"
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h" 1
  
  
@@ -962,7 +962,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\04_reserveroundtripticket\\\\combined_04_ReserveRoundtripticket.c" 2
+# 1 "c:\\users\\user\\desktop\\kursloadrunner \227 \352\356\357\350\377\\kursloadrunner\\\361\352\360\350\357\362\373\\04_reserveroundtripticket\\\\combined_04_ReserveRoundtripticket.c" 2
 
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1126,7 +1126,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\04_reserveroundtripticket\\\\combined_04_ReserveRoundtripticket.c" 2
+# 2 "c:\\users\\user\\desktop\\kursloadrunner \227 \352\356\357\350\377\\kursloadrunner\\\361\352\360\350\357\362\373\\04_reserveroundtripticket\\\\combined_04_ReserveRoundtripticket.c" 2
 
 # 1 "globals.h" 1
 
@@ -2583,14 +2583,14 @@ void
  
 
 
-# 3 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\04_reserveroundtripticket\\\\combined_04_ReserveRoundtripticket.c" 2
+# 3 "c:\\users\\user\\desktop\\kursloadrunner \227 \352\356\357\350\377\\kursloadrunner\\\361\352\360\350\357\362\373\\04_reserveroundtripticket\\\\combined_04_ReserveRoundtripticket.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\04_reserveroundtripticket\\\\combined_04_ReserveRoundtripticket.c" 2
+# 4 "c:\\users\\user\\desktop\\kursloadrunner \227 \352\356\357\350\377\\kursloadrunner\\\361\352\360\350\357\362\373\\04_reserveroundtripticket\\\\combined_04_ReserveRoundtripticket.c" 2
 
 # 1 "Action.c" 1
 Action()
@@ -2598,6 +2598,8 @@ Action()
 	lr_start_transaction("ReserveRoundtripticket");
 	
 		lr_start_transaction("WebTours");
+		
+		web_reg_find("Text=Error","Fail=Found","LAST");
 		
 	web_url("WebTours", 
 		"URL=http://localhost/WebTours/", 
@@ -2614,6 +2616,7 @@ Action()
 	
 lr_start_transaction("Login");
 
+web_reg_find("Text=Error","Fail=Found","LAST"); 
 
 	web_submit_form("login.pl", 
 		"Snapshot=t2.inf", 
@@ -2630,7 +2633,19 @@ lr_start_transaction("Login");
 
 lr_start_transaction("SearchReis");
 
+web_reg_find("Text=Error","Fail=Found","LAST");
 	
+ 
+	web_reg_save_param_attrib(
+		"ParamName=departDate",
+		"TagName=input",
+		"Extract=value",
+		"Name=departDate",
+		"Type=text",
+		"SEARCH_FILTERS",
+		"RequestUrl=*/reservations.pl*",
+		"LAST");
+
 	web_image("Search Flights Button", 
 		"Alt=Search Flights Button", 
 		"Snapshot=t3.inf", 
@@ -2638,19 +2653,19 @@ lr_start_transaction("SearchReis");
 
 	lr_think_time(11);
 
-	web_submit_form("reservations.pl", 
-		"Snapshot=t4.inf", 
-		"ITEMDATA", 
-		"Name=depart", "Value=Denver", "ENDITEM", 
-		"Name=departDate", "Value=07/09/2020", "ENDITEM", 
-		"Name=arrive", "Value=Paris", "ENDITEM", 
-		"Name=returnDate", "Value=07/11/2020", "ENDITEM", 
-		"Name=numPassengers", "Value=1", "ENDITEM", 
-		"Name=roundtrip", "Value=on", "ENDITEM", 
-		"Name=seatPref", "Value=None", "ENDITEM", 
-		"Name=seatType", "Value=Business", "ENDITEM", 
-		"Name=findFlights.x", "Value=60", "ENDITEM", 
-		"Name=findFlights.y", "Value=9", "ENDITEM", 
+	web_submit_form("reservations.pl",
+		"Snapshot=t4.inf",
+		"ITEMDATA",
+		"Name=depart", "Value=Denver", "ENDITEM",
+		"Name=departDate", "Value={departDate}", "ENDITEM",
+		"Name=arrive", "Value=Paris", "ENDITEM",
+		"Name=returnDate", "Value=07/11/2020", "ENDITEM",
+		"Name=numPassengers", "Value=1", "ENDITEM",
+		"Name=roundtrip", "Value=on", "ENDITEM",
+		"Name=seatPref", "Value=None", "ENDITEM",
+		"Name=seatType", "Value=Business", "ENDITEM",
+		"Name=findFlights.x", "Value=60", "ENDITEM",
+		"Name=findFlights.y", "Value=9", "ENDITEM",
 		"LAST");
 
 	lr_end_transaction("SearchReis", 2);
@@ -2660,17 +2675,20 @@ lr_start_transaction("SearchReis");
 	
 lr_start_transaction("ChousReis");
 
-	web_submit_form("reservations.pl_2", 
-		"Snapshot=t5.inf", 
-		"ITEMDATA", 
-		"Name=outboundFlight", "Value=040;508;07/09/2020", "ENDITEM", 
-		"Name=returnFlight", "Value=402;481;07/11/2020", "ENDITEM", 
-		"Name=reserveFlights.x", "Value=52", "ENDITEM", 
-		"Name=reserveFlights.y", "Value=7", "ENDITEM", 
+	web_submit_form("reservations.pl_2",
+		"Snapshot=t5.inf",
+		"ITEMDATA",
+		"Name=outboundFlight", "Value=040;508;{departDate}", "ENDITEM",
+		"Name=returnFlight", "Value=402;481;07/11/2020", "ENDITEM",
+		"Name=reserveFlights.x", "Value=52", "ENDITEM",
+		"Name=reserveFlights.y", "Value=7", "ENDITEM",
 		"LAST");
 lr_end_transaction("ChousReis", 2);
 
 	lr_start_transaction("InputPassData");
+	
+	web_reg_find("Text=Error","Fail=Found","LAST");
+	
 	web_submit_form("reservations.pl_3", 
 		"Snapshot=t6.inf", 
 		"ITEMDATA", 
@@ -2699,12 +2717,12 @@ lr_end_transaction("ReserveRoundtripticket", 2);
 
 	return 0;
 }
-# 5 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\04_reserveroundtripticket\\\\combined_04_ReserveRoundtripticket.c" 2
+# 5 "c:\\users\\user\\desktop\\kursloadrunner \227 \352\356\357\350\377\\kursloadrunner\\\361\352\360\350\357\362\373\\04_reserveroundtripticket\\\\combined_04_ReserveRoundtripticket.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\04_reserveroundtripticket\\\\combined_04_ReserveRoundtripticket.c" 2
+# 6 "c:\\users\\user\\desktop\\kursloadrunner \227 \352\356\357\350\377\\kursloadrunner\\\361\352\360\350\357\362\373\\04_reserveroundtripticket\\\\combined_04_ReserveRoundtripticket.c" 2
 

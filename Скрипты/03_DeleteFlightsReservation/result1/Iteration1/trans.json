@@ -1,27 +1,27 @@
 [
     {
         "transactionName": "WebTours",
-        "rawStartTime": 1599298926734,
-        "rawEndTime": 1599298926965
+        "rawStartTime": 1604269096002,
+        "rawEndTime": 1604269096237
     },
     {
         "transactionName": "LoginUser",
-        "rawStartTime": 1599298927026,
-        "rawEndTime": 1599298927169
+        "rawStartTime": 1604269096316,
+        "rawEndTime": 1604269096470
     },
     {
         "transactionName": "DeleteItinerary",
-        "rawStartTime": 1599298927214,
-        "rawEndTime": 1599298927447
+        "rawStartTime": 1604269096533,
+        "rawEndTime": 1604269096818
     },
     {
         "transactionName": "Logout",
-        "rawStartTime": 1599298927508,
-        "rawEndTime": 1599298927631
+        "rawStartTime": 1604269096881,
+        "rawEndTime": 1604269097038
     },
     {
         "transactionName": "DeleteFlightsReservation",
-        "rawStartTime": 1599298926687,
-        "rawEndTime": 1599298927694
+        "rawStartTime": 1604269095956,
+        "rawEndTime": 1604269097085
     }
 ]

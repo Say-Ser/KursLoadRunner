@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\user\Desktop\KursLoadRunner\—крипты\04_ReserveRoundtripticket
+-IC:\Users\user\Desktop\KursLoadRunner Ч копи€\KursLoadRunner\—крипты\04_ReserveRoundtripticket
 -IC:\Program Files (x86)\HPE\LoadRunner\include
--ec:\users\user\desktop\kursloadrunner\скрипты\04_reserveroundtripticket\\logfile.log
-c:\users\user\desktop\kursloadrunner\скрипты\04_reserveroundtripticket\\combined_04_ReserveRoundtripticket.c
-c:\users\user\desktop\kursloadrunner\скрипты\04_reserveroundtripticket\\pre_cci.c
+-ec:\users\user\desktop\kursloadrunner Ч копи€\kursloadrunner\скрипты\04_reserveroundtripticket\\logfile.log
+c:\users\user\desktop\kursloadrunner Ч копи€\kursloadrunner\скрипты\04_reserveroundtripticket\\combined_04_ReserveRoundtripticket.c
+c:\users\user\desktop\kursloadrunner Ч копи€\kursloadrunner\скрипты\04_reserveroundtripticket\\pre_cci.c
