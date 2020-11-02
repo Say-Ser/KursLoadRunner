@@ -5,6 +5,8 @@ Action()
 	
 lr_start_transaction("WebTours");
 
+web_reg_find("Text=Error","Fail=Found",LAST);
+
 	web_url("WebTours", 
 		"URL=http://localhost/WebTours/", 
 		"Resource=0", 
@@ -28,6 +30,8 @@ lr_end_transaction("GoToSingUp", LR_AUTO);
 	lr_think_time(41);
 
 	lr_start_transaction("InputData");
+	
+	web_reg_find("Text=Error","Fail=Found",LAST);
 
 	web_submit_form("login.pl", 
 		"Snapshot=t6.inf", 

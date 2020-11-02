@@ -129,13 +129,13 @@
 ]
 >
 <Report ver="2.0" tmZone="RTZ 2 (зима)">
-<General productName="Vugen" productVer="12" os="" host="NB-03586"><DocLocation><![CDATA[C:\Users\user\Desktop\KursLoadRunner\Скрипты\05_ViewItinerary]]></DocLocation></General>
+<General productName="Vugen" productVer="12" os="" host="NB-03586"><DocLocation><![CDATA[C:\Users\user\Desktop\KursLoadRunner — копия\KursLoadRunner\Скрипты\05_ViewItinerary]]></DocLocation></General>
 <Doc rID="T1"   productName= "Vugen"  >
 <DName><![CDATA[05_ViewItinerary]]></DName>
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="08.07.2020 - 20:20:08" eTime="08.07.2020 - 20:20:08" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="02.11.2020 - 1:20:20" eTime="02.11.2020 - 1:20:20" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -144,54 +144,72 @@
 <Action rID="T4">
 <AName><![CDATA[Action]]></AName>
 <Step rID="T5">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=Error</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[02.11.2020 - 1:20:20]]></Time>
+<TimeTick>1604269220</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="9" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Url: WebTours]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[08.07.2020 - 20:20:08]]></Time>
-<TimeTick>1594228808</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="9" status="Passed" >
+<Time><![CDATA[02.11.2020 - 1:20:20]]></Time>
+<TimeTick>1604269220</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="10" status="Passed" >
 <Disp><![CDATA[Url: WebTours]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t1.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T6">
+<Step rID="T7">
+<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
+<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=Error</FONT></STRONG></CENTER>]]></Details>
+<Time><![CDATA[02.11.2020 - 1:20:20]]></Time>
+<TimeTick>1604269220</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="11" >
+<Disp><![CDATA[Service: Reg Find]]></Disp>
+</NodeArgs>
+</Step>
+<Step rID="T8">
 <Obj plainTxt="False" ><![CDATA[Submit Form: login.pl]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[08.07.2020 - 20:20:09]]></Time>
-<TimeTick>1594228809</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="10" status="Passed" >
+<Time><![CDATA[02.11.2020 - 1:20:21]]></Time>
+<TimeTick>1604269221</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="12" status="Passed" >
 <Disp><![CDATA[Submit Form: login.pl]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t2.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T7">
+<Step rID="T9">
 <Obj plainTxt="False" ><![CDATA[Image: Itinerary Button]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[08.07.2020 - 20:20:09]]></Time>
-<TimeTick>1594228809</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="11" status="Passed" >
+<Time><![CDATA[02.11.2020 - 1:20:21]]></Time>
+<TimeTick>1604269221</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="13" status="Passed" >
 <Disp><![CDATA[Image: Itinerary Button]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t3.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T8">
+<Step rID="T10">
 <Obj plainTxt="False" ><![CDATA[Image: SignOff Button]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[08.07.2020 - 20:20:09]]></Time>
-<TimeTick>1594228809</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="12" status="Passed" >
+<Time><![CDATA[02.11.2020 - 1:20:21]]></Time>
+<TimeTick>1604269221</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="14" status="Passed" >
 <Disp><![CDATA[Image: SignOff Button]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t4.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="08.07.2020 - 20:20:08" eTime="08.07.2020 - 20:20:09" passed="4" failed="0" warnings="0" ></Summary>
+<Summary sTime="02.11.2020 - 1:20:20" eTime="02.11.2020 - 1:20:21" passed="4" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
@@ -200,14 +218,14 @@
 <Disp><![CDATA[05_ViewItinerary Iteration 1 (Row 1)]]></Disp>
 </NodeArgs>
 </DIter>
-<Action rID="T9">
+<Action rID="T11">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="08.07.2020 - 20:20:09" eTime="08.07.2020 - 20:20:09" passed="0" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="15" >
+<Summary sTime="02.11.2020 - 1:20:21" eTime="02.11.2020 - 1:20:21" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="17" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="08.07.2020 - 20:20:06" eTime="08.07.2020 - 20:20:10" passed="4" failed="0" warnings="0" ></Summary>
+<Summary sTime="02.11.2020 - 1:20:18" eTime="02.11.2020 - 1:20:22" passed="4" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
 <Disp><![CDATA[Test 05_ViewItinerary Summary]]></Disp>
 </NodeArgs>

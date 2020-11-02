@@ -1,9 +1,9 @@
-Virtual User Script started at: 08.07.2020 19:38:24
+Virtual User Script started at: 01.11.2020 19:47:48
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (июл 24 2017 19:46:00)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
 Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
-Run-Time Settings file: "C:\Users\user\Desktop\KursLoadRunner\—крипты\01_UserRegistration\\default.cfg"  	[MsgId: MMSG-27141]
+Run-Time Settings file: "C:\Users\user\Desktop\KursLoadRunner Ч копи€\KursLoadRunner\—крипты\01_UserRegistration\\default.cfg"  	[MsgId: MMSG-27141]
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
@@ -19,23 +19,23 @@ Action.c(8): Found resource "http://localhost/WebTours/images/webtours.png" in H
 Action.c(8): Detected non-resource "http://localhost/cgi-bin/nav.pl?in=home" in "http://localhost/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(8): Detected non-resource "http://localhost/WebTours/home.html" in "http://localhost/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(8): Found resource "http://localhost/WebTours/images/mer_login.gif" in HTML "http://localhost/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
-Action.c(8): web_url("WebTours") was successful, 10071 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(16): Notify: Transaction "WebTours" ended with a "Pass" status (Duration: 0,2090 Wasted Time: 0,0931).
+Action.c(8): web_url("WebTours") was successful, 10080 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(16): Notify: Transaction "WebTours" ended with a "Pass" status (Duration: 0,3429 Wasted Time: 0,1232).
 Action.c(20): Notify: Transaction "GoToSingUp" started.
 Action.c(22): web_link("sign up now") started  	[MsgId: MMSG-26355]
 Action.c(22): Linking to "http://localhost/cgi-bin/login.pl?username=&password=&getInfo=true", Target Frame=""  	[MsgId: MMSG-27994]
 Action.c(22): Found resource "http://localhost/WebTours/profileValidate.js" in HTML "http://localhost/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
 Action.c(22): Found resource "http://localhost/WebTours/images/button_next.gif" in HTML "http://localhost/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
 Action.c(22): web_link("sign up now") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(26): Notify: Transaction "GoToSingUp" ended with a "Pass" status (Duration: 0,0877 Wasted Time: 0,0095).
+Action.c(26): Notify: Transaction "GoToSingUp" ended with a "Pass" status (Duration: 0,1104 Wasted Time: 0,0049).
 Action.c(30): Notify: Transaction "InputData" started.
 Action.c(32): web_submit_form("login.pl") started  	[MsgId: MMSG-26355]
 Action.c(32): Submitting form to "http://localhost/cgi-bin/login.pl", Target Frame="info"  	[MsgId: MMSG-27978]
 Action.c(32): Resource "http://localhost/WebTours/profileValidate.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(32): Resource "http://localhost/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(32): web_submit_form("login.pl") was successful, 2665 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(46): Notify: Transaction "InputData" ended with a "Pass" status (Duration: 0,1091 Wasted Time: 0,0069).
-Action.c(49): Notify: Transaction "UserRegestration" ended with a "Pass" status (Duration: 0,6383 Wasted Time: 0,1095).
+Action.c(46): Notify: Transaction "InputData" ended with a "Pass" status (Duration: 0,1400 Wasted Time: 0,0044).
+Action.c(49): Notify: Transaction "UserRegestration" ended with a "Pass" status (Duration: 0,8441 Wasted Time: 0,1324).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

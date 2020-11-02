@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\user\Desktop\KursLoadRunner\KursLoadRunner\—крипты\01_UserRegistration
--IC:\Program Files (x86)\Micro Focus\Virtual User Generator\include
--ec:\users\user\desktop\kursloadrunner\kursloadrunner\скрипты\01_userregistration\\logfile.log
-c:\users\user\desktop\kursloadrunner\kursloadrunner\скрипты\01_userregistration\\combined_01_UserRegistration.c
-c:\users\user\desktop\kursloadrunner\kursloadrunner\скрипты\01_userregistration\\pre_cci.c
+-IC:\Users\user\Desktop\KursLoadRunner Ч копи€\KursLoadRunner\—крипты\01_UserRegistration
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\user\desktop\kursloadrunner Ч копи€\kursloadrunner\скрипты\01_userregistration\\logfile.log
+c:\users\user\desktop\kursloadrunner Ч копи€\kursloadrunner\скрипты\01_userregistration\\combined_01_UserRegistration.c
+c:\users\user\desktop\kursloadrunner Ч копи€\kursloadrunner\скрипты\01_userregistration\\pre_cci.c

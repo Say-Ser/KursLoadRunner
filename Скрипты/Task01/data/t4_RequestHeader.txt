@@ -1,6 +1,0 @@
-GET /translate_a/l?client=chrome&hl=ru&key=dummytoken&alpha=1 HTTP/1.1
-Host: translate.googleapis.com
-Connection: keep-alive
-User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36
-Accept-Encoding: gzip, deflate, br
-

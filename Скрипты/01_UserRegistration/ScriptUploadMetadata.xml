@@ -11,7 +11,9 @@
     <FileEntry Name="01_UserRegistration.usr" Filter="4" />
     <FileEntry Name="default.cfg" Filter="4" />
     <FileEntry Name="default.usp" Filter="4" />
+    <FileEntry Name="01_UserRegistration.prm" Filter="2" />
     <FileEntry Name="globals.h" Filter="2" />
+    <FileEntry Name="NewParam.dat" Filter="2" />
     <FileEntry Name="combined_01_UserRegistration.c" Filter="2" />
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="01_UserRegistration.c.pickle" Filter="1" />
@@ -33,6 +35,7 @@
     <FileEntry Name="replay.har" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="shunra.shunra" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="data\" Filter="1" />

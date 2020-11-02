@@ -4,6 +4,8 @@ lr_start_transaction("ViewItinerary");
 
 	lr_start_transaction("WebTours");	
 	
+	web_reg_find("Text=Error","Fail=Found",LAST);
+	
 	web_url("WebTours", 
 		"URL=http://localhost/WebTours/", 
 		"Resource=0", 
@@ -14,10 +16,12 @@ lr_start_transaction("ViewItinerary");
 		LAST);
 	lr_end_transaction("WebTours", LR_AUTO);
 	
+lr_think_time(11);
 
-
-	lr_think_time(11);
 lr_start_transaction("Login");
+
+web_reg_find("Text=Error","Fail=Found",LAST);
+
 	web_submit_form("login.pl", 
 		"Snapshot=t2.inf", 
 		ITEMDATA, 
