@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [parameter:Addres]
 ColumnName="Adres"
 Delimiter="	"
@@ -85,6 +86,19 @@ StartRow="1"
 Table="UserParametrs.dat"
 TableLocation="C:\Users\user\Desktop\KursLoadRunner\Скрипты\Parametrs"
 TotalRecords="10"
+=======
+[parameter:NewParam]
+ColumnName="Col 1"
+Delimiter=","
+GenerateNewVal="EachIteration"
+OriginalValue=""
+OutOfRangePolicy="ContinueWithLast"
+ParamName="NewParam"
+SelectNextRow="Sequential"
+StartRow="1"
+Table="NewParam.dat"
+TableLocation="Local"
+>>>>>>> 387897bf765c140329932ee8bde673a768297fe0
 Type="Table"
 auto_allocate_block_size="1"
 value_for_each_vuser=""

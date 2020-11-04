@@ -2,8 +2,16 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
+<<<<<<< HEAD
 -IC:\Users\user\Desktop\KursLoadRunner\—крипты\01_UserRegistration
 -IC:\Program Files (x86)\HPE\LoadRunner\include
 -ec:\users\user\desktop\kursloadrunner\скрипты\01_userregistration\\logfile.log
 c:\users\user\desktop\kursloadrunner\скрипты\01_userregistration\\combined_01_UserRegistration.c
 c:\users\user\desktop\kursloadrunner\скрипты\01_userregistration\\pre_cci.c
+=======
+-IC:\Users\user\Desktop\KursLoadRunner Ч копи€\KursLoadRunner\—крипты\01_UserRegistration
+-IC:\Program Files (x86)\HPE\LoadRunner\include
+-ec:\users\user\desktop\kursloadrunner Ч копи€\kursloadrunner\скрипты\01_userregistration\\logfile.log
+c:\users\user\desktop\kursloadrunner Ч копи€\kursloadrunner\скрипты\01_userregistration\\combined_01_UserRegistration.c
+c:\users\user\desktop\kursloadrunner Ч копи€\kursloadrunner\скрипты\01_userregistration\\pre_cci.c
+>>>>>>> 387897bf765c140329932ee8bde673a768297fe0

@@ -1,13 +1,19 @@
 [t4]
 RequestBodyFile=t4_RequestBody.txt
 URL10=http://localhost/WebTours/images/flights.gif
+<<<<<<< HEAD
 URL11=http://localhost/WebTours/images/signoff.gif
 URL12=http://localhost/WebTours/images/in_home.gif
+=======
+URL11=http://localhost/WebTours/images/in_home.gif
+URL12=http://localhost/WebTours/images/signoff.gif
+>>>>>>> 387897bf765c140329932ee8bde673a768297fe0
 URL13=http://localhost/WebTours/images/itinerary.gif
 URL14=http://localhost/WebTours/images/mer_login.gif
 URL15=http://localhost/WebTours/images/webtours.png
 URL16=http://localhost/WebTours/images/hp_logo.png
 SaveSnapshotResources=1
+<<<<<<< HEAD
 FileName11=t2_5_signoff.gif
 FileName10=t2_6_flights.gif
 FileName13=t2_3_itinerary.gif
@@ -15,6 +21,15 @@ FileName12=t2_4_in_home.gif
 RequestHeaderFile=t4_RequestHeader.txt
 FileName15=t1_1_webtours.png
 RawStepStartTime=1604336437484
+=======
+FileName11=t2_5_in_home.gif
+FileName10=t2_6_flights.gif
+FileName13=t2_3_itinerary.gif
+FileName12=t2_4_signoff.gif
+RequestHeaderFile=t4_RequestHeader.txt
+FileName15=t1_1_webtours.png
+RawStepStartTime=1604269221409
+>>>>>>> 387897bf765c140329932ee8bde673a768297fe0
 FileName14=t1_2_mer_login.gif
 FileName16=t1_0_hp_logo.png
 ContentType=text/html
@@ -24,7 +39,11 @@ FrameIndex3=0.1
 FrameIndex4=0.1.0
 FrameIndex5=0.1.1
 ResponseHeaderFile=t4_ResponseHeader.txt
+<<<<<<< HEAD
 RawStepEndTime=1604336437568
+=======
+RawStepEndTime=1604269221521
+>>>>>>> 387897bf765c140329932ee8bde673a768297fe0
 UseFrameIndex=1
 SnapshotXmlFile=snapshot_4.xml
 Total=16

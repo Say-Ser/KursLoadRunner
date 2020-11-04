@@ -1,5 +1,9 @@
 HTTP/1.1 200 OK
+<<<<<<< HEAD
 Date: Mon, 02 Nov 2020 17:00:36 GMT
+=======
+Date: Sun, 01 Nov 2020 22:20:20 GMT
+>>>>>>> 387897bf765c140329932ee8bde673a768297fe0
 Server: Apache/2.2.21 (Win32)
 Expires: 5s
 Set-Cookie: MTUserInfo=firstName&&address2&&username&major&hash&18&lastName&%0A&address1&&creditCard&123456&expDate&213%0A; path=/

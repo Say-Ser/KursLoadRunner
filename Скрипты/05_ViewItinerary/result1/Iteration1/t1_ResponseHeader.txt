@@ -1,5 +1,9 @@
 HTTP/1.1 200 OK
+<<<<<<< HEAD
 Date: Mon, 02 Nov 2020 17:00:36 GMT
+=======
+Date: Sun, 01 Nov 2020 22:20:20 GMT
+>>>>>>> 387897bf765c140329932ee8bde673a768297fe0
 Server: Apache/2.2.21 (Win32)
 Last-Modified: Mon, 27 May 2013 11:20:22 GMT
 ETag: "6000000067d5f-16e-4ddb1559ac980"

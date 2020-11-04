@@ -1,8 +1,13 @@
+<<<<<<< HEAD
 Virtual User Script started at: 02.11.2020 19:55:42
+=======
+Virtual User Script started at: 02.11.2020 1:19:11
+>>>>>>> 387897bf765c140329932ee8bde673a768297fe0
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (июл 24 2017 19:46:00)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
 Replay user agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko  	[MsgId: MMSG-26988]
+<<<<<<< HEAD
 Run-Time Settings file: "C:\Users\user\Desktop\KursLoadRunner\—крипты\01_UserRegistration\\default.cfg"  	[MsgId: MMSG-27141]
 Vuser directory: "C:\Users\user\Desktop\KursLoadRunner\—крипты\01_UserRegistration"  	[MsgId: MMSG-27052]
 Vuser output directory: "C:\Users\user\Desktop\KursLoadRunner\—крипты\01_UserRegistration"  	[MsgId: MMSG-27050]
@@ -42,6 +47,9 @@ Some of the Run-Time Settings:  	[MsgId: MMSG-27142]
     Graph response bytes per second: Yes  	[MsgId: MMSG-26997]
     Graph pages per second: No  	[MsgId: MMSG-26996]
     Web recorder version ID: 10  	[MsgId: MMSG-26995]
+=======
+Run-Time Settings file: "C:\Users\user\Desktop\KursLoadRunner Ч копи€\KursLoadRunner\—крипты\01_UserRegistration\\default.cfg"  	[MsgId: MMSG-27141]
+>>>>>>> 387897bf765c140329932ee8bde673a768297fe0
 Ending action vuser_init.
 Running Vuser...
 Starting iteration 1.
@@ -52,6 +60,7 @@ Action.c(6): Notify: Transaction "WebTours" started.
 Action.c(8): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(8): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 Action.c(10): web_url("WebTours") started  	[MsgId: MMSG-26355]
+<<<<<<< HEAD
 Action.c(10): t=13047ms: Connecting [0] to host 127.0.0.1:80  	[MsgId: MMSG-26000]
 Action.c(10): t=13048ms: Connected socket [0] from 127.0.0.1:1865 to 127.0.0.1:80 in 1 ms  	[MsgId: MMSG-26000]
 Action.c(10): t=13048ms: 238-byte request headers for "http://localhost/WebTours/" (RelFrameId=1, Internal ID=1)
@@ -859,10 +868,30 @@ Action.c(24): t=13413ms: 758-byte response body for "http://localhost/WebTours/i
 Action.c(24): t=13413ms: Request done "http://localhost/WebTours/images/button_next.gif"  	[MsgId: MMSG-26000]
 Action.c(24): web_link("sign up now") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(28): Notify: Transaction "GoToSingUp" ended with a "Pass" status (Duration: 0,1253 Wasted Time: 0,0045).
+=======
+Action.c(10): Detected non-resource "http://localhost/WebTours/header.html" in "http://localhost/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(10): Detected non-resource "http://localhost/cgi-bin/welcome.pl?signOff=true" in "http://localhost/WebTours/"  	[MsgId: MMSG-26574]
+Action.c(10): Found resource "http://localhost/WebTours/images/hp_logo.png" in HTML "http://localhost/WebTours/header.html"  	[MsgId: MMSG-26659]
+Action.c(10): Found resource "http://localhost/WebTours/images/webtours.png" in HTML "http://localhost/WebTours/header.html"  	[MsgId: MMSG-26659]
+Action.c(10): Detected non-resource "http://localhost/cgi-bin/nav.pl?in=home" in "http://localhost/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(10): Detected non-resource "http://localhost/WebTours/home.html" in "http://localhost/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
+Action.c(10): Found resource "http://localhost/WebTours/images/mer_login.gif" in HTML "http://localhost/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
+Action.c(10): Registered web_reg_find successful for "Text=Error"  	[MsgId: MMSG-26362]
+Action.c(10): web_url("WebTours") was successful, 10080 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(18): Notify: Transaction "WebTours" ended with a "Pass" status (Duration: 0,2210 Wasted Time: 0,0824).
+Action.c(22): Notify: Transaction "GoToSingUp" started.
+Action.c(24): web_link("sign up now") started  	[MsgId: MMSG-26355]
+Action.c(24): Linking to "http://localhost/cgi-bin/login.pl?username=&password=&getInfo=true", Target Frame=""  	[MsgId: MMSG-27994]
+Action.c(24): Found resource "http://localhost/WebTours/profileValidate.js" in HTML "http://localhost/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(24): Found resource "http://localhost/WebTours/images/button_next.gif" in HTML "http://localhost/cgi-bin/login.pl?username=&password=&getInfo=true"  	[MsgId: MMSG-26659]
+Action.c(24): web_link("sign up now") was successful, 14475 body bytes, 838 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(28): Notify: Transaction "GoToSingUp" ended with a "Pass" status (Duration: 0,1099 Wasted Time: 0,0046).
+>>>>>>> 387897bf765c140329932ee8bde673a768297fe0
 Action.c(32): Notify: Transaction "InputData" started.
 Action.c(34): web_reg_find started  	[MsgId: MMSG-26355]
 Action.c(34): Registering web_reg_find was successful  	[MsgId: MMSG-26390]
 Action.c(36): web_submit_form("login.pl") started  	[MsgId: MMSG-26355]
+<<<<<<< HEAD
 Action.c(36): Notify: Parameter Substitution: parameter "Login" =  "major"
 Action.c(36): Notify: Parameter Substitution: parameter "Password" =  "pain"
 Action.c(36): Notify: Parameter Substitution: parameter "Password" =  "pain"
@@ -950,6 +979,15 @@ Action.c(36): Registered web_reg_find successful for "Text=Error"  	[MsgId: MMSG
 Action.c(36): web_submit_form("login.pl") was successful, 2707 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
 Action.c(50): Notify: Transaction "InputData" ended with a "Pass" status (Duration: 0,1406 Wasted Time: 0,0040).
 Action.c(53): Notify: Transaction "UserRegestration" ended with a "Pass" status (Duration: 0,7652 Wasted Time: 0,0921).
+=======
+Action.c(36): Submitting form to "http://localhost/cgi-bin/login.pl", Target Frame="info"  	[MsgId: MMSG-27978]
+Action.c(36): Resource "http://localhost/WebTours/profileValidate.js" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Resource "http://localhost/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(36): Registered web_reg_find successful for "Text=Error"  	[MsgId: MMSG-26362]
+Action.c(36): web_submit_form("login.pl") was successful, 2665 body bytes, 228 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(50): Notify: Transaction "InputData" ended with a "Pass" status (Duration: 0,1090 Wasted Time: 0,0044).
+Action.c(53): Notify: Transaction "UserRegestration" ended with a "Pass" status (Duration: 0,6935 Wasted Time: 0,0914).
+>>>>>>> 387897bf765c140329932ee8bde673a768297fe0
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

@@ -51,7 +51,11 @@
     "BrowserVersion": "",
     "MaxUsedConnections": 9,
     "RecordedBrowser": "Internet Explorer",
+<<<<<<< HEAD
     "RecordingDate": "Р С‘РЎР‹Р В»-07-2020",
+=======
+    "RecordingDate": "РёСЋР»-07-2020",
+>>>>>>> 387897bf765c140329932ee8bde673a768297fe0
     "RecordingDuration": 79656,
     "RecordingTimeStamp": 1594161088,
     "TotalBytesReceived": 33904,
