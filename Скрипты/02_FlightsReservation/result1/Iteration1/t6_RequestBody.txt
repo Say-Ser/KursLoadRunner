@@ -1,4 +1,2 @@
-"firstName=Pain&lastName=Major&address1=Matusinga&address2=&pass1=+&creditCard=1545545454&expDa"
-"te=213&saveCC=on&oldCCOption=on&numPassengers=1&seatType=First&seatPref=Window&outboundFlight="
-"022%3B600%3B07%2F09%2F2020&advanceDiscount=0&returnFlight=&JSFormSubmit=off&.cgifields=saveCC&"
-"buyFlights.x=58&buyFlights.y=1"
+"outboundFlight=022%3B600%3B11%2F06%2F2020&numPassengers=1&advanceDiscount=0&seatType=First&sea"
+"tPref=Window&reserveFlights.x=70&reserveFlights.y=8"

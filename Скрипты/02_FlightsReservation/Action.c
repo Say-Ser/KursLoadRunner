@@ -38,6 +38,17 @@ lr_end_transaction("LoginUser", LR_AUTO);
 lr_start_transaction("SearchReis");
 
 
+/*Correlation comment - Do not change!  Original value='07/09/2020' Name ='departDate' Type ='RecordReplay'*/
+	web_reg_save_param_attrib(
+		"ParamName=departDate",
+		"TagName=input",
+		"Extract=value",
+		"Name=departDate",
+		"Type=text",
+		SEARCH_FILTERS,
+		"RequestUrl=*/reservations.pl*",
+		LAST);
+
 	web_image("Search Flights Button", 
 		"Alt=Search Flights Button", 
 		"Snapshot=t3.inf", 
@@ -46,31 +57,31 @@ lr_start_transaction("SearchReis");
 
 	lr_think_time(13);
 
-	web_submit_form("reservations.pl", 
-		"Snapshot=t4.inf", 
-		ITEMDATA, 
-		"Name=depart", "Value=Denver", ENDITEM, 
-		"Name=departDate", "Value=07/09/2020", ENDITEM, 
-		"Name=arrive", "Value=London", ENDITEM, 
-		"Name=returnDate", "Value=07/20/2020", ENDITEM, 
-		"Name=numPassengers", "Value=1", ENDITEM, 
-		"Name=roundtrip", "Value=<OFF>", ENDITEM, 
-		"Name=seatPref", "Value=Window", ENDITEM, 
-		"Name=seatType", "Value=First", ENDITEM, 
-		"Name=findFlights.x", "Value=49", ENDITEM, 
-		"Name=findFlights.y", "Value=11", ENDITEM, 
+	web_submit_form("reservations.pl",
+		"Snapshot=t4.inf",
+		ITEMDATA,
+		"Name=depart", "Value=Denver", ENDITEM,
+		"Name=departDate", "Value={departDate}", ENDITEM,
+		"Name=arrive", "Value=London", ENDITEM,
+		"Name=returnDate", "Value=07/20/2020", ENDITEM,
+		"Name=numPassengers", "Value=1", ENDITEM,
+		"Name=roundtrip", "Value=<OFF>", ENDITEM,
+		"Name=seatPref", "Value=Window", ENDITEM,
+		"Name=seatType", "Value=First", ENDITEM,
+		"Name=findFlights.x", "Value=49", ENDITEM,
+		"Name=findFlights.y", "Value=11", ENDITEM,
 		LAST);
 
 lr_end_transaction("SearchReis", LR_AUTO);
 
 lr_start_transaction("ChousReis");
 
-	web_submit_form("reservations.pl_2", 
-		"Snapshot=t5.inf", 
-		ITEMDATA, 
-		"Name=outboundFlight", "Value=022;600;07/09/2020", ENDITEM, 
-		"Name=reserveFlights.x", "Value=70", ENDITEM, 
-		"Name=reserveFlights.y", "Value=8", ENDITEM, 
+	web_submit_form("reservations.pl_2",
+		"Snapshot=t5.inf",
+		ITEMDATA,
+		"Name=outboundFlight", "Value=022;600;{departDate}", ENDITEM,
+		"Name=reserveFlights.x", "Value=70", ENDITEM,
+		"Name=reserveFlights.y", "Value=8", ENDITEM,
 		LAST);
 		
 lr_end_transaction("ChousReis", LR_AUTO);

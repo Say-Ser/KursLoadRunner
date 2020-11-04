@@ -2646,7 +2646,7 @@ web_reg_find("Text=Error","Fail=Found","LAST");
 		"RequestUrl=*/reservations.pl*",
 		"LAST");
 
- 
+
 	web_reg_save_param_attrib(
 		"ParamName=seatType",
 		"TagName=input",
@@ -2665,7 +2665,7 @@ web_reg_find("Text=Error","Fail=Found","LAST");
 
 	lr_think_time(11);
 
- 
+
 	web_reg_save_param_attrib(
 		"ParamName=returnFlight",
 		"TagName=input",

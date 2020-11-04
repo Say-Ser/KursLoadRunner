@@ -47,7 +47,7 @@
     "BrowserVersion": "",
     "MaxUsedConnections": 8,
     "RecordedBrowser": "Internet Explorer",
-    "RecordingDate": "июл-08-2020",
+    "RecordingDate": "Р В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р В Р вЂ№Р В Р вЂ Р В РІР‚С™Р вЂ™Р’ВР В Р’В Р вЂ™Р’В Р В Р’В Р В РІР‚в„–Р В Р’В Р вЂ™Р’В Р В Р вЂ Р В РІР‚С™Р Р†РІР‚С›РІР‚вЂњР В Р’В Р вЂ™Р’В Р В РІР‚в„ўР вЂ™Р’В Р В Р’В Р Р†Р вЂљРІвЂћСћР В РІР‚в„ўР вЂ™Р’В»-08-2020",
     "RecordingDuration": 44891,
     "RecordingTimeStamp": 1594225713,
     "TotalBytesReceived": 40293,
@@ -383,5 +383,5 @@
     "IncludeInScript": false,
     "IsScriptIncludeWebSocket": false
   },
-  "NumberOfCorrelations": 2
+  "NumberOfCorrelations": 1
 }
