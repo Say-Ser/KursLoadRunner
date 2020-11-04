@@ -30,8 +30,8 @@ web_reg_find("Text=Error","Fail=Found",LAST);
 	web_submit_form("login.pl", 
 		"Snapshot=t2.inf", 
 		ITEMDATA, 
-		"Name=username", "Value=major", ENDITEM, 
-		"Name=password", "Value=pain", ENDITEM, 
+		"Name=username", "Value={Login}", ENDITEM, 
+		"Name=password", "Value={Password}", ENDITEM, 
 		"Name=login.x", "Value=52", ENDITEM, 
 		"Name=login.y", "Value=5", ENDITEM, 
 		LAST);

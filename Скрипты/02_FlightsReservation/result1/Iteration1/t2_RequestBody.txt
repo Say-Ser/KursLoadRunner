@@ -1,2 +1,2 @@
-"userSession=129139.464803564zztczVVpccAiDDDDDQiffpzzHDcf&username=major&password=pain&JSFormSu"
-"bmit=off&login.x=33&login.y=7"
+"userSession=129974.147752126zzifftfpccftAVVDpcHVDf&username=major&password=pain&JSFormSubmit=o"
+"ff&login.x=33&login.y=7"

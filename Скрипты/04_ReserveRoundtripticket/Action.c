@@ -26,8 +26,8 @@ web_reg_find("Text=Error","Fail=Found",LAST);
 	web_submit_form("login.pl", 
 		"Snapshot=t2.inf", 
 		ITEMDATA, 
-		"Name=username", "Value=major", ENDITEM, 
-		"Name=password", "Value=pain", ENDITEM, 
+		"Name=username", "Value={Login}", ENDITEM, 
+		"Name=password", "Value={Pasword}", ENDITEM, 
 		"Name=login.x", "Value=75", ENDITEM, 
 		"Name=login.y", "Value=1", ENDITEM, 
 		LAST);
@@ -51,12 +51,35 @@ web_reg_find("Text=Error","Fail=Found",LAST);
 		"RequestUrl=*/reservations.pl*",
 		LAST);
 
+
+	web_reg_save_param_attrib(
+		"ParamName=seatType",
+		"TagName=input",
+		"Extract=value",
+		"Name=seatType",
+		"Type=radio",
+		SEARCH_FILTERS,
+		"IgnoreRedirections=No",
+		"RequestUrl=*/reservations.pl*",
+		LAST);
+
 	web_image("Search Flights Button", 
 		"Alt=Search Flights Button", 
 		"Snapshot=t3.inf", 
 		LAST);
 
 	lr_think_time(11);
+
+
+	web_reg_save_param_attrib(
+		"ParamName=returnFlight",
+		"TagName=input",
+		"Extract=value",
+		"Name=returnFlight",
+		"Type=radio",
+		SEARCH_FILTERS,
+		"IgnoreRedirections=No",
+		LAST);
 
 	web_submit_form("reservations.pl",
 		"Snapshot=t4.inf",
@@ -97,12 +120,12 @@ lr_end_transaction("ChousReis", LR_AUTO);
 	web_submit_form("reservations.pl_3", 
 		"Snapshot=t6.inf", 
 		ITEMDATA, 
-		"Name=firstName", "Value=", ENDITEM, 
-		"Name=lastName", "Value=", ENDITEM, 
-		"Name=address1", "Value=", ENDITEM, 
+		"Name=firstName", "Value={FirstName}", ENDITEM, 
+		"Name=lastName", "Value={Name}", ENDITEM, 
+		"Name=address1", "Value={Adress}", ENDITEM, 
 		"Name=address2", "Value=", ENDITEM, 
 		"Name=pass1", "Value= ", ENDITEM, 
-		"Name=creditCard", "Value=123456", ENDITEM, 
+		"Name=creditCard", "Value={Cards}", ENDITEM, 
 		"Name=expDate", "Value=213", ENDITEM, 
 		"Name=saveCC", "Value=on", ENDITEM, 
 		"Name=buyFlights.x", "Value=80", ENDITEM, 

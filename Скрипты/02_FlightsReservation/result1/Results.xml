@@ -135,7 +135,7 @@
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="08.07.2020 - 19:44:53" eTime="08.07.2020 - 19:44:53" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="05.11.2020 - 2:00:53" eTime="05.11.2020 - 2:00:53" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -146,8 +146,8 @@
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Url: WebTours]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[08.07.2020 - 19:44:53]]></Time>
-<TimeTick>1594226693</TimeTick>
+<Time><![CDATA[05.11.2020 - 2:00:54]]></Time>
+<TimeTick>1604530854</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="9" status="Passed" >
 <Disp><![CDATA[Url: WebTours]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -158,8 +158,8 @@
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Submit Form: login.pl]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[08.07.2020 - 19:44:53]]></Time>
-<TimeTick>1594226693</TimeTick>
+<Time><![CDATA[05.11.2020 - 2:00:54]]></Time>
+<TimeTick>1604530854</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="10" status="Passed" >
 <Disp><![CDATA[Submit Form: login.pl]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -170,8 +170,8 @@
 <Step rID="T7">
 <Obj plainTxt="False" ><![CDATA[Image: Search Flights Button]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[08.07.2020 - 19:44:54]]></Time>
-<TimeTick>1594226694</TimeTick>
+<Time><![CDATA[05.11.2020 - 2:00:54]]></Time>
+<TimeTick>1604530854</TimeTick>
 <NodeArgs eType="General" icon="6" nRep="11" status="Passed" >
 <Disp><![CDATA[Image: Search Flights Button]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -182,8 +182,8 @@
 <Step rID="T8">
 <Obj plainTxt="False" ><![CDATA[Submit Form: reservations.pl]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[08.07.2020 - 19:44:54]]></Time>
-<TimeTick>1594226694</TimeTick>
+<Time><![CDATA[05.11.2020 - 2:00:54]]></Time>
+<TimeTick>1604530854</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="12" status="Passed" >
 <Disp><![CDATA[Submit Form: reservations.pl]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -194,8 +194,8 @@
 <Step rID="T9">
 <Obj plainTxt="False" ><![CDATA[Submit Form: reservations.pl_2]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[08.07.2020 - 19:44:54]]></Time>
-<TimeTick>1594226694</TimeTick>
+<Time><![CDATA[05.11.2020 - 2:00:55]]></Time>
+<TimeTick>1604530855</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="13" status="Passed" >
 <Disp><![CDATA[Submit Form: reservations.pl_2]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -206,8 +206,8 @@
 <Step rID="T10">
 <Obj plainTxt="False" ><![CDATA[Submit Form: reservations.pl_3]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[08.07.2020 - 19:44:54]]></Time>
-<TimeTick>1594226694</TimeTick>
+<Time><![CDATA[05.11.2020 - 2:00:55]]></Time>
+<TimeTick>1604530855</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="14" status="Passed" >
 <Disp><![CDATA[Submit Form: reservations.pl_3]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -218,8 +218,8 @@
 <Step rID="T11">
 <Obj plainTxt="False" ><![CDATA[Image: SignOff Button]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[08.07.2020 - 19:44:54]]></Time>
-<TimeTick>1594226694</TimeTick>
+<Time><![CDATA[05.11.2020 - 2:00:55]]></Time>
+<TimeTick>1604530855</TimeTick>
 <NodeArgs eType="General" icon="6" nRep="15" status="Passed" >
 <Disp><![CDATA[Image: SignOff Button]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -227,7 +227,7 @@
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="08.07.2020 - 19:44:53" eTime="08.07.2020 - 19:44:54" passed="7" failed="0" warnings="0" ></Summary>
+<Summary sTime="05.11.2020 - 2:00:53" eTime="05.11.2020 - 2:00:55" passed="7" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
@@ -238,12 +238,12 @@
 </DIter>
 <Action rID="T12">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="08.07.2020 - 19:44:54" eTime="08.07.2020 - 19:44:54" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="05.11.2020 - 2:00:55" eTime="05.11.2020 - 2:00:55" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="18" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="08.07.2020 - 19:44:51" eTime="08.07.2020 - 19:44:55" passed="7" failed="0" warnings="0" ></Summary>
+<Summary sTime="05.11.2020 - 2:00:50" eTime="05.11.2020 - 2:00:56" passed="7" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
 <Disp><![CDATA[Test 02_FlightsReservation Summary]]></Disp>
 </NodeArgs>
