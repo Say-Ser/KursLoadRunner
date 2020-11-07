@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 # 1 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c"
-=======
-# 1 "c:\\users\\user\\desktop\\kursloadrunner \227 \352\356\357\350\377\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c"
->>>>>>> 387897bf765c140329932ee8bde673a768297fe0
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h" 1
  
  
@@ -966,11 +962,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-<<<<<<< HEAD
 # 1 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c" 2
-=======
-# 1 "c:\\users\\user\\desktop\\kursloadrunner \227 \352\356\357\350\377\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c" 2
->>>>>>> 387897bf765c140329932ee8bde673a768297fe0
 
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1134,11 +1126,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-<<<<<<< HEAD
 # 2 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c" 2
-=======
-# 2 "c:\\users\\user\\desktop\\kursloadrunner \227 \352\356\357\350\377\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c" 2
->>>>>>> 387897bf765c140329932ee8bde673a768297fe0
 
 # 1 "globals.h" 1
 
@@ -2598,22 +2586,14 @@ void
 
 
 
-<<<<<<< HEAD
 # 3 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c" 2
-=======
-# 3 "c:\\users\\user\\desktop\\kursloadrunner \227 \352\356\357\350\377\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c" 2
->>>>>>> 387897bf765c140329932ee8bde673a768297fe0
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-<<<<<<< HEAD
 # 4 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c" 2
-=======
-# 4 "c:\\users\\user\\desktop\\kursloadrunner \227 \352\356\357\350\377\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c" 2
->>>>>>> 387897bf765c140329932ee8bde673a768297fe0
 
 # 1 "Action.c" 1
 Action()
@@ -2672,20 +2652,12 @@ lr_end_transaction("UserRegestration", 2);
 
 	return 0;
 }
-<<<<<<< HEAD
 # 5 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c" 2
-=======
-# 5 "c:\\users\\user\\desktop\\kursloadrunner \227 \352\356\357\350\377\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c" 2
->>>>>>> 387897bf765c140329932ee8bde673a768297fe0
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-<<<<<<< HEAD
 # 6 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c" 2
-=======
-# 6 "c:\\users\\user\\desktop\\kursloadrunner \227 \352\356\357\350\377\\kursloadrunner\\\361\352\360\350\357\362\373\\01_userregistration\\\\combined_01_UserRegistration.c" 2
->>>>>>> 387897bf765c140329932ee8bde673a768297fe0
 

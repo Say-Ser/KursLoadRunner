@@ -19,8 +19,10 @@
     <FileEntry Name=".gitignore" Filter="1" />
     <FileEntry Name="03_DeleteFlightsReservation.c.pickle" Filter="1" />
     <FileEntry Name="03_DeleteFlightsReservation.ci" Filter="1" />
+    <FileEntry Name="03_DeleteFlightsReservation.prm.bak" Filter="1" />
     <FileEntry Name="03_DeleteFlightsReservation.sdf" Filter="1" />
     <FileEntry Name="13703563590.idx" Filter="1" />
+    <FileEntry Name="14577876290.idx" Filter="1" />
     <FileEntry Name="Adress.dat" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />

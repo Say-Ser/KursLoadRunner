@@ -17,8 +17,10 @@
     <FileEntry Name="pre_cci.c" Filter="2" />
     <FileEntry Name="05_ViewItinerary.c.pickle" Filter="1" />
     <FileEntry Name="05_ViewItinerary.ci" Filter="1" />
+    <FileEntry Name="05_ViewItinerary.prm.bak" Filter="1" />
     <FileEntry Name="05_ViewItinerary.sdf" Filter="1" />
     <FileEntry Name="13703563590.idx" Filter="1" />
+    <FileEntry Name="24941755890.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />

@@ -2,11 +2,7 @@
 RequestBodyFile=t1_RequestBody.txt
 SaveSnapshotResources=1
 RequestHeaderFile=t1_RequestHeader.txt
-<<<<<<< HEAD
-RawStepStartTime=1604336436645
-=======
-RawStepStartTime=1604269220681
->>>>>>> 387897bf765c140329932ee8bde673a768297fe0
+RawStepStartTime=1604783361541
 ContentType=text/html
 FrameIndex2=0.0
 RawStepName=WebTours
@@ -15,11 +11,7 @@ FrameIndex4=0.1.0
 FrameIndex5=0.1.1
 ResponseHeaderFile=t1_ResponseHeader.txt
 UseFrameIndex=1
-<<<<<<< HEAD
-RawStepEndTime=1604336436799
-=======
-RawStepEndTime=1604269220848
->>>>>>> 387897bf765c140329932ee8bde673a768297fe0
+RawStepEndTime=1604783361878
 SnapshotXmlFile=snapshot_1.xml
 Total=8
 URL1=http://localhost/WebTours/
