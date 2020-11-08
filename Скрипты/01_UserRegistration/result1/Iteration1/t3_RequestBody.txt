@@ -1,2 +1,2 @@
-"username=major&password=%7BPassword%7D&passwordConfirm=%7BPassword%7D&firstName=Major&lastName"
-"=Pain&address1=Matusinga&address2=&register.x=22&register.y=6"
+"username=major&password=pain&passwordConfirm=pain&firstName=Major&lastName=Pain&address1=Matus"
+"inga&address2=&register.x=22&register.y=6"
