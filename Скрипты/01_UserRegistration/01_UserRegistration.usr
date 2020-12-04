@@ -52,14 +52,14 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="UserRegestration__*delimiter*__WebTours__*delimiter*__GoToSingUp__*delimiter*__InputData"
+Order="01_UserRegestration__*delimiter*__WebTours__*delimiter*__GoToSingUp__*delimiter*__InputData"
 [StateManagement]
 LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=result1
 ActiveRunName=result1
 [Transactions]
-UserRegestration=
+01_UserRegestration=
 WebTours=
 GoToSingUp=
 InputData=
