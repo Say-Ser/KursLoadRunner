@@ -1,1 +1,2 @@
-"1=on&removeAllFlights.x=73&removeAllFlights.y=15"
+"flightID=202001500-107922-PM&flightID=202000837-1584-PM&flightID=202000837-2353-PM&.cgifields="
+"1&.cgifields=3&.cgifields=2&removeAllFlights.x=44&removeAllFlights.y=12"

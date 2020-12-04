@@ -1,6 +1,6 @@
 Action()
 {
-lr_start_transaction("ViewItinerary");
+lr_start_transaction("05_ViewItinerary");
 
 	lr_start_transaction("WebTours");	
 	
@@ -48,6 +48,6 @@ lr_end_transaction("ViewTicket", LR_AUTO);
 		LAST);
 
 lr_end_transaction("Logout", LR_AUTO);
-lr_end_transaction("ViewItinerary", LR_AUTO);
+lr_end_transaction("05_ViewItinerary", LR_AUTO);
 	return 0;
 }

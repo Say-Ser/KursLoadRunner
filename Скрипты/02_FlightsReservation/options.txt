@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\user\Desktop\KursLoadRunner\Скрипты\02_FlightsReservation
+-IC:\Users\user\Documents\GitHub\KursLoadRunner\Скрипты\02_FlightsReservation
 -IC:\Program Files (x86)\HPE\LoadRunner\include
--ec:\users\user\desktop\kursloadrunner\скрипты\02_flightsreservation\\logfile.log
-c:\users\user\desktop\kursloadrunner\скрипты\02_flightsreservation\\combined_02_FlightsReservation.c
-c:\users\user\desktop\kursloadrunner\скрипты\02_flightsreservation\\pre_cci.c
+-ec:\users\user\documents\github\kursloadrunner\скрипты\02_flightsreservation\\logfile.log
+c:\users\user\documents\github\kursloadrunner\скрипты\02_flightsreservation\\combined_02_FlightsReservation.c
+c:\users\user\documents\github\kursloadrunner\скрипты\02_flightsreservation\\pre_cci.c

@@ -21,8 +21,7 @@
     <FileEntry Name="03_DeleteFlightsReservation.ci" Filter="1" />
     <FileEntry Name="03_DeleteFlightsReservation.prm.bak" Filter="1" />
     <FileEntry Name="03_DeleteFlightsReservation.sdf" Filter="1" />
-    <FileEntry Name="13703563590.idx" Filter="1" />
-    <FileEntry Name="14577876290.idx" Filter="1" />
+    <FileEntry Name="21341297490.idx" Filter="1" />
     <FileEntry Name="Adress.dat" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
@@ -44,10 +43,8 @@
     <FileEntry Name="replay.har" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
-    <FileEntry Name="shunra.shunra" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
-    <FileEntry Name=".git\" Filter="1" />
     <FileEntry Name="data\" Filter="1" />
     <FileEntry Name="result1\" Filter="1" />
   </GeneralFiles>

@@ -1,6 +1,6 @@
 Action()
 {
-	lr_start_transaction("FlightsReservation");
+	lr_start_transaction("02_FlightsReservation");
 
 	
 	
@@ -115,7 +115,7 @@ lr_start_transaction("Logout");
 		LAST);
 lr_end_transaction("Logout", LR_AUTO);
 
-lr_end_transaction("FlightsReservation", LR_AUTO);
+lr_end_transaction("02_FlightsReservation", LR_AUTO);
 
 
 	return 0;

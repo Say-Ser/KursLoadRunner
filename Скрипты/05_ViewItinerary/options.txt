@@ -2,8 +2,8 @@
 -DCCI
 -D_IDA_XL
 -DWINNT
--IC:\Users\user\Desktop\KursLoadRunner\Скрипты\05_ViewItinerary
+-IC:\Users\user\Documents\GitHub\KursLoadRunner\Скрипты\05_ViewItinerary
 -IC:\Program Files (x86)\HPE\LoadRunner\include
--ec:\users\user\desktop\kursloadrunner\скрипты\05_viewitinerary\\logfile.log
-c:\users\user\desktop\kursloadrunner\скрипты\05_viewitinerary\\combined_05_ViewItinerary.c
-c:\users\user\desktop\kursloadrunner\скрипты\05_viewitinerary\\pre_cci.c
+-ec:\users\user\documents\github\kursloadrunner\скрипты\05_viewitinerary\\logfile.log
+c:\users\user\documents\github\kursloadrunner\скрипты\05_viewitinerary\\combined_05_ViewItinerary.c
+c:\users\user\documents\github\kursloadrunner\скрипты\05_viewitinerary\\pre_cci.c

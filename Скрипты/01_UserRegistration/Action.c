@@ -1,6 +1,6 @@
 Action()
 {
-	lr_start_transaction("UserRegestration");
+	lr_start_transaction("01_UserRegestration");
 
 	
 lr_start_transaction("WebTours");
@@ -50,7 +50,7 @@ lr_end_transaction("GoToSingUp", LR_AUTO);
 	lr_end_transaction("InputData", LR_AUTO);
 
 	
-lr_end_transaction("UserRegestration", LR_AUTO);
+lr_end_transaction("01_UserRegestration", LR_AUTO);
 
 	return 0;
 }

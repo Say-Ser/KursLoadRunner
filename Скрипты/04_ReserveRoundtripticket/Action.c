@@ -1,6 +1,6 @@
 Action()
 {
-	lr_start_transaction("ReserveRoundtripticket");
+	lr_start_transaction("04_ReserveRoundtripticket");
 	
 		lr_start_transaction("WebTours");
 		
@@ -143,7 +143,7 @@ lr_end_transaction("ChousReis", LR_AUTO);
 	
 	lr_end_transaction("Logout", LR_AUTO);
 
-	lr_end_transaction("ReserveRoundtripticket", LR_AUTO);
+	lr_end_transaction("04_ReserveRoundtripticket", LR_AUTO);
 
 	return 0;
 }

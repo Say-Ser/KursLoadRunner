@@ -1,4 +1,4 @@
-# 1 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\03_deleteflightsreservation\\\\combined_03_DeleteFlightsReservation.c"
+# 1 "c:\\users\\user\\documents\\github\\kursloadrunner\\\361\352\360\350\357\362\373\\03_deleteflightsreservation\\\\combined_03_DeleteFlightsReservation.c"
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/lrun.h" 1
  
  
@@ -962,7 +962,7 @@ int lr_db_getvalue(char * pFirstArg, ...);
 
 
 
-# 1 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\03_deleteflightsreservation\\\\combined_03_DeleteFlightsReservation.c" 2
+# 1 "c:\\users\\user\\documents\\github\\kursloadrunner\\\361\352\360\350\357\362\373\\03_deleteflightsreservation\\\\combined_03_DeleteFlightsReservation.c" 2
 
 # 1 "C:\\Program Files (x86)\\HPE\\LoadRunner\\include/SharedParameter.h" 1
 
@@ -1126,7 +1126,7 @@ extern VTCERR2  lrvtc_noop();
 
 
 
-# 2 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\03_deleteflightsreservation\\\\combined_03_DeleteFlightsReservation.c" 2
+# 2 "c:\\users\\user\\documents\\github\\kursloadrunner\\\361\352\360\350\357\362\373\\03_deleteflightsreservation\\\\combined_03_DeleteFlightsReservation.c" 2
 
 # 1 "globals.h" 1
 
@@ -2583,21 +2583,21 @@ void
  
 
 
-# 3 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\03_deleteflightsreservation\\\\combined_03_DeleteFlightsReservation.c" 2
+# 3 "c:\\users\\user\\documents\\github\\kursloadrunner\\\361\352\360\350\357\362\373\\03_deleteflightsreservation\\\\combined_03_DeleteFlightsReservation.c" 2
 
 # 1 "vuser_init.c" 1
 vuser_init()
 {
 	return 0;
 }
-# 4 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\03_deleteflightsreservation\\\\combined_03_DeleteFlightsReservation.c" 2
+# 4 "c:\\users\\user\\documents\\github\\kursloadrunner\\\361\352\360\350\357\362\373\\03_deleteflightsreservation\\\\combined_03_DeleteFlightsReservation.c" 2
 
 # 1 "Action.c" 1
 Action()
 {
 
 	
-lr_start_transaction("DeleteFlightsReservation");
+lr_start_transaction("03_DeleteFlightsReservation");
 
 	
 lr_start_transaction("WebTours");
@@ -2645,22 +2645,16 @@ web_reg_find("Text=Error","Fail=Found","LAST");
 	lr_think_time(24);
 
 	
-web_submit_data("itinerary.pl", 
-	    "Action=http://localhost/cgi-bin/itinerary.pl", 
-	    "Method=POST", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost/cgi-bin/itinerary.pl", 
-		"Snapshot=t1.inf", 
-		"Mode=HTML", 
-		"ITEMDATA", 
-		"Name=1", "Value=on", "ENDITEM", 
-		"Name=removeAllFlights.x", "Value=73", "ENDITEM", 
-		"Name=removeAllFlights.y", "Value=15", "ENDITEM", 
-		"LAST");
-	
-	
  
-# 85 "Action.c"
+# 66 "Action.c"
+
+	web_submit_form("itinerary.pl", 
+		"Snapshot=t27.inf", 
+		"ITEMDATA", 
+		"Name=1", "Value=<OFF>", "ENDITEM",
+		"Name=removeAllFlights.x", "Value=44", "ENDITEM", 
+		"Name=removeAllFlights.y", "Value=12", "ENDITEM", 
+		"LAST");
 	
 lr_end_transaction("DeleteItinerary", 2);
 
@@ -2679,16 +2673,16 @@ web_reg_find("Text=Error","Fail=Found","LAST");
 		
 lr_end_transaction("Logout", 2);
 
-lr_end_transaction("DeleteFlightsReservation", 2);
+lr_end_transaction("03_DeleteFlightsReservation", 2);
 
 	return 0;
 }
-# 5 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\03_deleteflightsreservation\\\\combined_03_DeleteFlightsReservation.c" 2
+# 5 "c:\\users\\user\\documents\\github\\kursloadrunner\\\361\352\360\350\357\362\373\\03_deleteflightsreservation\\\\combined_03_DeleteFlightsReservation.c" 2
 
 # 1 "vuser_end.c" 1
 vuser_end()
 {
 	return 0;
 }
-# 6 "c:\\users\\user\\desktop\\kursloadrunner\\\361\352\360\350\357\362\373\\03_deleteflightsreservation\\\\combined_03_DeleteFlightsReservation.c" 2
+# 6 "c:\\users\\user\\documents\\github\\kursloadrunner\\\361\352\360\350\357\362\373\\03_deleteflightsreservation\\\\combined_03_DeleteFlightsReservation.c" 2
 

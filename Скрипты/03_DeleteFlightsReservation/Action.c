@@ -2,7 +2,7 @@ Action()
 {
 
 	
-lr_start_transaction("DeleteFlightsReservation");
+lr_start_transaction("03_DeleteFlightsReservation");
 
 	
 lr_start_transaction("WebTours");
@@ -50,7 +50,7 @@ web_reg_find("Text=Error","Fail=Found",LAST);
 	lr_think_time(24);
 
 	
-web_submit_data("itinerary.pl", 
+/*web_submit_data("itinerary.pl", 
 	    "Action=http://localhost/cgi-bin/itinerary.pl", 
 	    "Method=POST", 
 		"RecContentType=text/html", 
@@ -58,30 +58,19 @@ web_submit_data("itinerary.pl",
 		"Snapshot=t1.inf", 
 		"Mode=HTML", 
 		ITEMDATA, 
-		"Name=1", "Value=on", ENDITEM, 
+		"Name=1", "Value=<OFF>", ENDITEM, 
 		"Name=removeAllFlights.x", "Value=73", ENDITEM, 
 		"Name=removeAllFlights.y", "Value=15", ENDITEM, 
 		LAST);
-	
-	
-/*	web_submit_data("itinerary.pl", 
-		"Action=http://localhost/cgi-bin/itinerary.pl", 
-		"Method=POST", 
-		"RecContentType=text/html", 
-		"Referer=http://localhost/cgi-bin/itinerary.pl", 
-		"Snapshot=t4.inf", 
-		"Mode=HTML", 
-		ITEMDATA, 
-		"Name=flightID", "Value=128001120-1000193-\r\n", ENDITEM, 
-		"Name=flightID", "Value=1280000-15-\r\n", ENDITEM, 
-		"Name=flightID", "Value=128001500-261768-\r\n", ENDITEM, 
-		"Name=.cgifields", "Value=1", ENDITEM, 
-		"Name=.cgifields", "Value=3", ENDITEM, 
-		"Name=.cgifields", "Value=2", ENDITEM, 
-		"Name=removeAllFlights.x", "Value=49", ENDITEM, 
-		"Name=removeAllFlights.y", "Value=11", ENDITEM, 
-		LAST);
 	*/
+
+	web_submit_form("itinerary.pl", 
+		"Snapshot=t27.inf", 
+		ITEMDATA, 
+		"Name=1", "Value=<OFF>", ENDITEM,
+		"Name=removeAllFlights.x", "Value=44", ENDITEM, 
+		"Name=removeAllFlights.y", "Value=12", ENDITEM, 
+		LAST);
 	
 lr_end_transaction("DeleteItinerary", LR_AUTO);
 
@@ -100,7 +89,7 @@ web_reg_find("Text=Error","Fail=Found",LAST);
 		
 lr_end_transaction("Logout", LR_AUTO);
 
-lr_end_transaction("DeleteFlightsReservation", LR_AUTO);
+lr_end_transaction("03_DeleteFlightsReservation", LR_AUTO);
 
 	return 0;
 }
