@@ -1,0 +1,10 @@
+GET /cgi-bin/welcome.pl?page=itinerary HTTP/1.1
+Accept: text/html, application/xhtml+xml, image/jxr, */*
+Referer: http://localhost/cgi-bin/nav.pl?page=menu&in=flights
+Accept-Language: ru,en-US;q=0.7,en;q=0.3
+User-Agent: Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko
+Accept-Encoding: gzip, deflate
+Host: localhost
+Connection: Keep-Alive
+Cookie: MSO=SID&1607119482; MTUserInfo=firstName&&username&major&address2&&hash&18&expDate&213&creditCard&123456&address1&&lastName&%0A
+

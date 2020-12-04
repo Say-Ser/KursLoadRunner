@@ -1,0 +1,11 @@
+depart	arrive	seatPref	seatType	pass1
+Denver	Denver	Aisle	First	Matusinga
+Franfurt	Franfurt	Windows	First	Natinga	
+London	London	None	Coach	Shinibara	
+Los Angeles	Los Angeles	Aisle	Business	Montana	
+Paris	Paris	Windows	Business	Mitchigan	
+Portland	Portland	Aisle	Business	Malusiga	
+San Francisco	San Francisco	Windows	First	LA	
+Seattle	Seattle	None	Mike	Shunishara	
+Sydney	Sydney	Aisle	Coach	Montina	
+Zurich	Zurich	Windows	Business	Mitchiganio

@@ -1,6 +1,8 @@
 [StartRecordingGMT]
 StartRecordingGMT_1=2020/07/08 16:28:33
 StartRecordingIsDst_1=0
+StartRecordingGMT_2=2020/12/04 22:04:33
+StartRecordingIsDst_2=0
 [UserHomePage]
 UserHomePage=about:newsfeed
 [User-Agent]

@@ -2579,8 +2579,10 @@ void
 # 8 "globals.h" 2
 
 
+
  
  
+
 
 
 # 3 "c:\\users\\user\\documents\\github\\kursloadrunner\\\361\352\360\350\357\362\373\\02_flightsreservation\\\\combined_02_FlightsReservation.c" 2
@@ -2596,8 +2598,6 @@ vuser_init()
 Action()
 {
 	lr_start_transaction("02_FlightsReservation");
-
-	
 	
 lr_start_transaction("WebTours");
 
@@ -2606,10 +2606,10 @@ lr_start_transaction("WebTours");
 		"Resource=0", 
 		"RecContentType=text/html", 
 		"Referer=", 
-		"Snapshot=t1.inf", 
+		"Snapshot=t9.inf", 
 		"Mode=HTML", 
 		"LAST");
-		
+
 lr_end_transaction("WebTours", 2);
 
 
@@ -2617,96 +2617,87 @@ lr_end_transaction("WebTours", 2);
 
 lr_start_transaction("LoginUser");
 	
-	
 	web_submit_form("login.pl", 
-		"Snapshot=t2.inf", 
+		"Snapshot=t10.inf", 
 		"ITEMDATA", 
-		"Name=username", "Value={Login}", "ENDITEM", 
-		"Name=password", "Value={Password}", "ENDITEM", 
-		"Name=login.x", "Value=33", "ENDITEM", 
-		"Name=login.y", "Value=7", "ENDITEM", 
+		"Name=username", "Value=major", "ENDITEM", 
+		"Name=password", "Value=pain", "ENDITEM", 
+		"Name=login.x", "Value=62", "ENDITEM", 
+		"Name=login.y", "Value=3", "ENDITEM", 
 		"LAST");
-		
 lr_end_transaction("LoginUser", 2);
 
 
 lr_start_transaction("SearchReis");
 
+	web_image("Search Flights Button", 
+		"Alt=Search Flights Button", 
+		"Snapshot=t11.inf", 
+		"LAST");
 
  
 	web_reg_save_param_attrib(
-		"ParamName=departDate",
+		"ParamName=outboundFlight",
 		"TagName=input",
 		"Extract=value",
-		"Name=departDate",
-		"Type=text",
-		"SEARCH_FILTERS",
-		"RequestUrl=*/reservations.pl*",
+		"Name=outboundFlight",
+		"Type=radio",
 		"LAST");
 
-	web_image("Search Flights Button", 
-		"Alt=Search Flights Button", 
-		"Snapshot=t3.inf", 
-		"LAST");
-
-
-	lr_think_time(13);
-
-	web_submit_form("reservations.pl",
-		"Snapshot=t4.inf",
+	web_submit_form("reservations.pl", 
+		"Snapshot=t12.inf", 
 		"ITEMDATA",
-		"Name=depart", "Value=Denver", "ENDITEM",
+		"Name=depart", "Value={depart}", "ENDITEM",
 		"Name=departDate", "Value={departDate}", "ENDITEM",
-		"Name=arrive", "Value=London", "ENDITEM",
-		"Name=returnDate", "Value=07/20/2020", "ENDITEM",
+		"Name=arrive", "Value={arrive}", "ENDITEM",
+		"Name=returnDate", "Value={returnDate}", "ENDITEM",
 		"Name=numPassengers", "Value=1", "ENDITEM",
 		"Name=roundtrip", "Value=<OFF>", "ENDITEM",
-		"Name=seatPref", "Value=Window", "ENDITEM",
-		"Name=seatType", "Value=First", "ENDITEM",
+		"Name=seatPref", "Value={seatPref}", "ENDITEM",
+		"Name=seatType", "Value={seatType}", "ENDITEM",
 		"Name=findFlights.x", "Value=49", "ENDITEM",
 		"Name=findFlights.y", "Value=11", "ENDITEM",
 		"LAST");
-
 lr_end_transaction("SearchReis", 2);
 
 lr_start_transaction("ChousReis");
 
 	web_submit_form("reservations.pl_2",
-		"Snapshot=t5.inf",
+		"Snapshot=t13.inf",
 		"ITEMDATA",
-		"Name=outboundFlight", "Value=022;600;{departDate}", "ENDITEM",
-		"Name=reserveFlights.x", "Value=70", "ENDITEM",
-		"Name=reserveFlights.y", "Value=8", "ENDITEM",
+		"Name=outboundFlight", "Value={outboundFlight}", "ENDITEM",
+		"Name=reserveFlights.x", "Value=14", "ENDITEM",
+		"Name=reserveFlights.y", "Value=4", "ENDITEM",
 		"LAST");
-		
+
 lr_end_transaction("ChousReis", 2);
 
 	lr_think_time(4);
 
 	lr_start_transaction("InputPassData");
 
-	
 	web_submit_form("reservations.pl_3", 
-		"Snapshot=t6.inf", 
+		"Snapshot=t14.inf", 
 		"ITEMDATA", 
-		"Name=firstName", "Value={FirstName}", "ENDITEM", 
-		"Name=lastName", "Value={Name}", "ENDITEM", 
-		"Name=address1", "Value={Adress}", "ENDITEM", 
+		"Name=firstName", "Value=", "ENDITEM", 
+		"Name=lastName", "Value=", "ENDITEM", 
+		"Name=address1", "Value=", "ENDITEM", 
 		"Name=address2", "Value=", "ENDITEM", 
 		"Name=pass1", "Value= ", "ENDITEM", 
-		"Name=creditCard", "Value={Cards}", "ENDITEM", 
+		"Name=creditCard", "Value=123456", "ENDITEM", 
 		"Name=expDate", "Value=213", "ENDITEM", 
 		"Name=saveCC", "Value=on", "ENDITEM", 
-		"Name=buyFlights.x", "Value=58", "ENDITEM", 
-		"Name=buyFlights.y", "Value=1", "ENDITEM", 
+		"Name=buyFlights.x", "Value=61", "ENDITEM", 
+		"Name=buyFlights.y", "Value=9", "ENDITEM", 
 		"LAST");
+	
 lr_end_transaction("InputPassData", 2);
 
 lr_start_transaction("Logout");
 
-	web_image("SignOff Button", 
+web_image("SignOff Button", 
 		"Alt=SignOff Button", 
-		"Snapshot=t8.inf", 
+		"Snapshot=t15.inf", 
 		"LAST");
 lr_end_transaction("Logout", 2);
 
