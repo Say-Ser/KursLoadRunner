@@ -1,5 +1,5 @@
-[t6]
-RequestBodyFile=t6_RequestBody.txt
+[t7]
+RequestBodyFile=t7_RequestBody.txt
 URL10=http://localhost/WebTours/images/signoff.gif
 URL11=http://localhost/WebTours/images/in_home.gif
 URL12=http://localhost/WebTours/images/itinerary.gif
@@ -11,9 +11,9 @@ FileName11=t2_4_in_home.gif
 FileName10=t2_5_signoff.gif
 FileName13=t1_2_mer_login.gif
 FileName12=t2_3_itinerary.gif
-RequestHeaderFile=t6_RequestHeader.txt
+RequestHeaderFile=t7_RequestHeader.txt
 FileName15=t1_0_hp_logo.png
-RawStepStartTime=1607122309600
+RawStepStartTime=1607316040335
 FileName14=t1_1_webtours.png
 ContentType=text/html
 RawStepName=reservations.pl_2
@@ -21,8 +21,8 @@ FrameIndex2=0.0
 FrameIndex3=0.1
 FrameIndex4=0.1.0
 FrameIndex5=0.1.1
-ResponseHeaderFile=t6_ResponseHeader.txt
-RawStepEndTime=1607122309600
+ResponseHeaderFile=t7_ResponseHeader.txt
+RawStepEndTime=1607316040335
 UseFrameIndex=1
 SnapshotXmlFile=snapshot_4.xml
 Total=15

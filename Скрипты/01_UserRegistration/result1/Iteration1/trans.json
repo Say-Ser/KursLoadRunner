@@ -1,22 +1,22 @@
 [
     {
         "transactionName": "WebTours",
-        "rawStartTime": 1607103642725,
-        "rawEndTime": 1607103643067
+        "rawStartTime": 1607315720522,
+        "rawEndTime": 1607315720759
     },
     {
         "transactionName": "GoToSingUp",
-        "rawStartTime": 1607103643099,
-        "rawEndTime": 1607103643208
+        "rawStartTime": 1607315720790,
+        "rawEndTime": 1607315720882
     },
     {
         "transactionName": "InputData",
-        "rawStartTime": 1607103643240,
-        "rawEndTime": 1607103643347
+        "rawStartTime": 1607315720915,
+        "rawEndTime": 1607315721008
     },
     {
-        "transactionName": "UserRegestration",
-        "rawStartTime": 1607103642710,
-        "rawEndTime": 1607103643363
+        "transactionName": "01_UserRegestration",
+        "rawStartTime": 1607315720506,
+        "rawEndTime": 1607315721024
     }
 ]

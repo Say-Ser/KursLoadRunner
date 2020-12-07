@@ -40,7 +40,7 @@ lr_start_transaction("SearchReis");
 
 web_reg_find("Text=Error","Fail=Found",LAST);
 	
-/*Correlation comment - Do not change!  Original value='07/09/2020' Name ='departDate' Type ='RecordReplay'
+//Correlation comment - Do not change!  Original value='07/09/2020' Name ='departDate' Type ='RecordReplay'
 	web_reg_save_param_attrib(
 		"ParamName=departDate",
 		"TagName=input",
@@ -62,7 +62,7 @@ web_reg_find("Text=Error","Fail=Found",LAST);
 		"IgnoreRedirections=No",
 		"RequestUrl=reservations.pl*",
 		LAST);
-*/
+
 	web_image("Search Flights Button", 
 		"Alt=Search Flights Button", 
 		"Snapshot=t3.inf", 
@@ -102,7 +102,7 @@ web_reg_find("Text=Error","Fail=Found",LAST);
 	lr_think_time(4);
 	
 lr_start_transaction("ChousReis");
-	web_reg_save_param_attrib(
+	/*web_reg_save_param_attrib(
 		"ParamName=outboundFlight",
 		"TagName=input",
 		"Extract=value",
@@ -115,7 +115,7 @@ lr_start_transaction("ChousReis");
 		"Extract=value",
 		"Name=returnFlight",
 		"Type=radio",
-		LAST);
+		LAST);*/
 		
 	web_submit_form("reservations.pl_2",
 		"Snapshot=t5.inf",

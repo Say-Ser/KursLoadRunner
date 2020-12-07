@@ -1,6 +1,6 @@
 Warning: Failed to post to 'http://127.0.0.1:8182/shunra/api/emulation/packetCaptureOnly', retcode=7.
 Warning: Failed to start NV emulation. Perhaps the NV server is not working, and therefore a NV report will not be generated.
-Virtual User Script started at: 04.12.2020 20:49:09
+Virtual User Script started at: 07.12.2020 7:41:12
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -13,7 +13,7 @@ Starting iteration 1.
 Maximum number of concurrent connections per server: 6  	[MsgId: MMSG-26989]
 Starting action Action.
 Warning: Failed to get NV emulation handle.
-Action.c(3): Notify: Transaction "ViewItinerary" started.
+Action.c(3): Notify: Transaction "05_ViewItinerary" started.
 Action.c(3): Warning: Failed to get NV emulation handle.
 Action.c(5): Notify: Transaction "WebTours" started.
 Action.c(5): Warning: Failed to get NV emulation handle.
@@ -28,8 +28,8 @@ Action.c(9): Detected non-resource "http://localhost/cgi-bin/nav.pl?in=home" in 
 Action.c(9): Detected non-resource "http://localhost/WebTours/home.html" in "http://localhost/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(9): Found resource "http://localhost/WebTours/images/mer_login.gif" in HTML "http://localhost/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
 Action.c(9): Registered web_reg_find successful for "Text=Error"  	[MsgId: MMSG-26362]
-Action.c(9): web_url("WebTours") was successful, 10076 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(17): Notify: Transaction "WebTours" ended with a "Pass" status (Duration: 0,2330 Wasted Time: 0,1008).
+Action.c(9): web_url("WebTours") was successful, 10071 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(17): Notify: Transaction "WebTours" ended with a "Pass" status (Duration: 0,1886 Wasted Time: 0,0834).
 Action.c(21): Notify: Transaction "Login" started.
 Action.c(21): Warning: Failed to get NV emulation handle.
 Action.c(23): web_reg_find started  	[MsgId: MMSG-26355]
@@ -42,23 +42,23 @@ Action.c(25): Found resource "http://localhost/WebTours/images/flights.gif" in H
 Action.c(25): Found resource "http://localhost/WebTours/images/itinerary.gif" in HTML "http://localhost/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
 Action.c(25): Found resource "http://localhost/WebTours/images/in_home.gif" in HTML "http://localhost/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
 Action.c(25): Found resource "http://localhost/WebTours/images/signoff.gif" in HTML "http://localhost/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
-Action.c(25): Registered web_reg_find successful for "Text=Error"  	[MsgId: MMSG-26362]
-Action.c(25): web_submit_form("login.pl") was successful, 5780 body bytes, 2033 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(33): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,1416 Wasted Time: 0,0067).
+Action.c(25): Registered web_reg_find successful for "Text=to the Web Tours reservation pages" (count=1)  	[MsgId: MMSG-26364]
+Action.c(25): web_submit_form("login.pl") was successful, 5780 body bytes, 2032 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(33): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,1727 Wasted Time: 0,0070).
 Action.c(35): Notify: Transaction "ViewTicket" started.
 Action.c(35): Warning: Failed to get NV emulation handle.
 Action.c(37): web_image("Itinerary Button") started  	[MsgId: MMSG-26355]
 Action.c(37): Image-linking to "http://localhost/cgi-bin/welcome.pl?page=itinerary", Target Frame="body"  	[MsgId: MMSG-27993]
 Action.c(37): Detected non-resource "http://localhost/cgi-bin/nav.pl?page=menu&in=itinerary" in "http://localhost/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
 Action.c(37): Detected non-resource "http://localhost/cgi-bin/itinerary.pl" in "http://localhost/cgi-bin/welcome.pl?page=itinerary"  	[MsgId: MMSG-26574]
+Action.c(37): Found resource "http://localhost/WebTours/images/cancelreservation.gif" in HTML "http://localhost/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
+Action.c(37): Found resource "http://localhost/WebTours/images/cancelallreservations.gif" in HTML "http://localhost/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
 Action.c(37): Resource "http://localhost/WebTours/images/flights.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(37): Found resource "http://localhost/WebTours/images/in_itinerary.gif" in HTML "http://localhost/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
 Action.c(37): Found resource "http://localhost/WebTours/images/home.gif" in HTML "http://localhost/cgi-bin/nav.pl?page=menu&in=itinerary"  	[MsgId: MMSG-26659]
 Action.c(37): Resource "http://localhost/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-Action.c(37): Found resource "http://localhost/WebTours/images/cancelreservation.gif" in HTML "http://localhost/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
-Action.c(37): Found resource "http://localhost/WebTours/images/cancelallreservations.gif" in HTML "http://localhost/cgi-bin/itinerary.pl"  	[MsgId: MMSG-26659]
-Action.c(37): web_image("Itinerary Button") was successful, 7745 body bytes, 1913 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(41): Notify: Transaction "ViewTicket" ended with a "Pass" status (Duration: 0,2024 Wasted Time: 0,0145).
+Action.c(37): web_image("Itinerary Button") was successful, 7654 body bytes, 1913 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(41): Notify: Transaction "ViewTicket" ended with a "Pass" status (Duration: 0,1255 Wasted Time: 0,0057).
 Action.c(44): Notify: Transaction "Logout" started.
 Action.c(44): Warning: Failed to get NV emulation handle.
 Action.c(45): web_image("SignOff Button") started  	[MsgId: MMSG-26355]
@@ -67,9 +67,9 @@ Action.c(45): Detected non-resource "http://localhost/cgi-bin/nav.pl?in=home" in
 Action.c(45): Detected non-resource "http://localhost/WebTours/home.html" in "http://localhost/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
 Action.c(45): Retrieving data from cache for "http://localhost/WebTours/home.html"  	[MsgId: MMSG-26558]
 Action.c(45): Resource "http://localhost/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-Action.c(45): web_image("SignOff Button") was successful, 2172 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(50): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,1384 Wasted Time: 0,0049).
-Action.c(51): Notify: Transaction "ViewItinerary" ended with a "Pass" status (Duration: 0,8262 Wasted Time: 0,1269).
+Action.c(45): web_image("SignOff Button") was successful, 2175 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(50): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,1110 Wasted Time: 0,0044).
+Action.c(51): Notify: Transaction "05_ViewItinerary" ended with a "Pass" status (Duration: 0,7082 Wasted Time: 0,1004).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

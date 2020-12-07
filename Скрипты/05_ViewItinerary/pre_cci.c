@@ -2595,7 +2595,7 @@ vuser_init()
 # 1 "Action.c" 1
 Action()
 {
-lr_start_transaction("ViewItinerary");
+lr_start_transaction("05_ViewItinerary");
 
 	lr_start_transaction("WebTours");	
 	
@@ -2615,7 +2615,7 @@ lr_think_time(11);
 
 lr_start_transaction("Login");
 
-web_reg_find("Text=Error","Fail=Found","LAST");
+web_reg_find("Text=to the Web Tours reservation pages","LAST");
 
 	web_submit_form("login.pl", 
 		"Snapshot=t2.inf", 
@@ -2643,7 +2643,7 @@ lr_end_transaction("ViewTicket", 2);
 		"LAST");
 
 lr_end_transaction("Logout", 2);
-lr_end_transaction("ViewItinerary", 2);
+lr_end_transaction("05_ViewItinerary", 2);
 	return 0;
 }
 # 5 "c:\\users\\user\\documents\\github\\kursloadrunner\\\361\352\360\350\357\362\373\\05_viewitinerary\\\\combined_05_ViewItinerary.c" 2

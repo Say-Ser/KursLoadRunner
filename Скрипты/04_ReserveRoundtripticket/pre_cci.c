@@ -2674,12 +2674,19 @@ lr_start_transaction("ChousReis");
 		"Name=outboundFlight",
 		"Type=radio",
 		"LAST");
-
+	web_reg_save_param_attrib(
+		"ParamName=returnFlight",
+		"TagName=input",
+		"Extract=value",
+		"Name=returnFlight",
+		"Type=radio",
+		"LAST");
+		
 	web_submit_form("reservations.pl_2",
 		"Snapshot=t5.inf",
 		"ITEMDATA",
 		"Name=outboundFlight", "Value={outboundFlight}", "ENDITEM",
-		"Name=returnFlight", "Value=402;481;07/11/2020", "ENDITEM",
+		"Name=returnFlight", "Value={returnFlight}", "ENDITEM",
 		"Name=reserveFlights.x", "Value=52", "ENDITEM",
 		"Name=reserveFlights.y", "Value=7", "ENDITEM",
 		"LAST");

@@ -20,7 +20,7 @@ lr_think_time(11);
 
 lr_start_transaction("Login");
 
-web_reg_find("Text=Error","Fail=Found",LAST);
+web_reg_find("Text=to the Web Tours reservation pages",LAST);
 
 	web_submit_form("login.pl", 
 		"Snapshot=t2.inf", 

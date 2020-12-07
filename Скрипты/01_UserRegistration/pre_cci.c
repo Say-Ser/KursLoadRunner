@@ -2598,7 +2598,7 @@ vuser_init()
 # 1 "Action.c" 1
 Action()
 {
-	lr_start_transaction("UserRegestration");
+	lr_start_transaction("01_UserRegestration");
 
 	
 lr_start_transaction("WebTours");
@@ -2629,7 +2629,7 @@ lr_end_transaction("GoToSingUp", 2);
 
 	lr_start_transaction("InputData");
 	
-	web_reg_find("Text=Error","Fail=Found","LAST");
+web_reg_find("Text=Error","Fail=Found","LAST");
 
 	web_submit_form("login.pl", 
 		"Snapshot=t6.inf", 
@@ -2648,7 +2648,7 @@ lr_end_transaction("GoToSingUp", 2);
 	lr_end_transaction("InputData", 2);
 
 	
-lr_end_transaction("UserRegestration", 2);
+lr_end_transaction("01_UserRegestration", 2);
 
 	return 0;
 }
