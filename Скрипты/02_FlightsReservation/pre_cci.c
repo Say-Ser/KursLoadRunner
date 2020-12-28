@@ -2620,8 +2620,8 @@ lr_start_transaction("LoginUser");
 	web_submit_form("login.pl", 
 		"Snapshot=t10.inf", 
 		"ITEMDATA", 
-		"Name=username", "Value=major", "ENDITEM", 
-		"Name=password", "Value=pain", "ENDITEM", 
+		"Name=username", "Value={Login}", "ENDITEM", 
+		"Name=password", "Value={Password}", "ENDITEM", 
 		"Name=login.x", "Value=62", "ENDITEM", 
 		"Name=login.y", "Value=3", "ENDITEM", 
 		"LAST");

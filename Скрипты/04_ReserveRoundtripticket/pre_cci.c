@@ -2630,22 +2630,27 @@ web_reg_find("Text=Error","Fail=Found","LAST");
 	lr_end_transaction("Login",2);
 
 	lr_think_time(21);
+	
+	
 
 lr_start_transaction("SearchReis");
 
 web_reg_find("Text=Error","Fail=Found","LAST");
 	
  
-# 66 "Action.c"
+
+
+
 	web_image("Search Flights Button", 
 		"Alt=Search Flights Button", 
 		"Snapshot=t3.inf", 
 		"LAST");
 
-	lr_think_time(11);
-
  
-# 84 "Action.c"
+# 64 "Action.c"
+	lr_think_time(11);
+	 
+# 86 "Action.c"
 	web_submit_form("reservations.pl",
 		"Snapshot=t4.inf",
 		"ITEMDATA",
@@ -2666,7 +2671,6 @@ web_reg_find("Text=Error","Fail=Found","LAST");
 	
 	lr_think_time(4);
 	
-lr_start_transaction("ChousReis");
 	web_reg_save_param_attrib(
 		"ParamName=outboundFlight",
 		"TagName=input",
@@ -2681,6 +2685,9 @@ lr_start_transaction("ChousReis");
 		"Name=returnFlight",
 		"Type=radio",
 		"LAST");
+	
+lr_start_transaction("ChousReis");
+	
 		
 	web_submit_form("reservations.pl_2",
 		"Snapshot=t5.inf",

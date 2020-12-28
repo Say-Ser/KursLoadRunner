@@ -23,6 +23,8 @@
     <FileEntry Name="14344336090.idx" Filter="1" />
     <FileEntry Name="15701096190.idx" Filter="1" />
     <FileEntry Name="4477112490.idx" Filter="1" />
+    <FileEntry Name="447711249_lnt.937.idx" Filter="1" />
+    <FileEntry Name="447711249_qhM.261.idx" Filter="1" />
     <FileEntry Name="Bookmarks.xml" Filter="1" />
     <FileEntry Name="Breakpoints.xml" Filter="1" />
     <FileEntry Name="CompilerLogMetadata.xml" Filter="1" />
@@ -40,6 +42,7 @@
     <FileEntry Name="replay.har" Filter="1" />
     <FileEntry Name="ReplaySummaryReport.xml" Filter="1" />
     <FileEntry Name="ScriptUploadMetadata.xml" Filter="1" />
+    <FileEntry Name="shunra.shunra" Filter="1" />
     <FileEntry Name="ThumbnailsCache.tmp" Filter="1" />
     <FileEntry Name="UserTasks.xml" Filter="1" />
     <FileEntry Name="data\" Filter="1" />

@@ -35,13 +35,35 @@ web_reg_find("Text=Error","Fail=Found",LAST);
 	lr_end_transaction("Login",LR_AUTO);
 
 	lr_think_time(21);
+	
+	
 
 lr_start_transaction("SearchReis");
 
 web_reg_find("Text=Error","Fail=Found",LAST);
 	
 //Correlation comment - Do not change!  Original value='07/09/2020' Name ='departDate' Type ='RecordReplay'
-	web_reg_save_param_attrib(
+
+
+
+	web_image("Search Flights Button", 
+		"Alt=Search Flights Button", 
+		"Snapshot=t3.inf", 
+		LAST);
+
+/*	web_reg_save_param_attrib(
+		"ParamName=seatType",
+		"TagName=input",
+		"Extract=value",
+		"Name=seatType",
+		"Type=radio",
+		SEARCH_FILTERS,
+		"IgnoreRedirections=No",
+		"RequestUrl=reservations.pl*",
+		LAST);*/
+	lr_think_time(11);
+	/*
+web_reg_save_param_attrib(
 		"ParamName=departDate",
 		"TagName=input",
 		"Extract=value",
@@ -51,26 +73,6 @@ web_reg_find("Text=Error","Fail=Found",LAST);
 		"RequestUrl=reservations.pl*",
 		LAST);
 
-
-	web_reg_save_param_attrib(
-		"ParamName=seatType",
-		"TagName=input",
-		"Extract=value",
-		"Name=seatType",
-		"Type=radio",
-		SEARCH_FILTERS,
-		"IgnoreRedirections=No",
-		"RequestUrl=reservations.pl*",
-		LAST);
-
-	web_image("Search Flights Button", 
-		"Alt=Search Flights Button", 
-		"Snapshot=t3.inf", 
-		LAST);
-
-	lr_think_time(11);
-
-/*
 	web_reg_save_param_attrib(
 		"ParamName=returnFlight",
 		"TagName=input",
@@ -101,8 +103,7 @@ web_reg_find("Text=Error","Fail=Found",LAST);
 	
 	lr_think_time(4);
 	
-lr_start_transaction("ChousReis");
-	/*web_reg_save_param_attrib(
+	web_reg_save_param_attrib(
 		"ParamName=outboundFlight",
 		"TagName=input",
 		"Extract=value",
@@ -115,7 +116,10 @@ lr_start_transaction("ChousReis");
 		"Extract=value",
 		"Name=returnFlight",
 		"Type=radio",
-		LAST);*/
+		LAST);
+	
+lr_start_transaction("ChousReis");
+	
 		
 	web_submit_form("reservations.pl_2",
 		"Snapshot=t5.inf",
