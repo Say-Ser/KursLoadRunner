@@ -2599,7 +2599,7 @@ Action()
 	
 		lr_start_transaction("WebTours");
 		
-		web_reg_find("Text=Error","Fail=Found","LAST");
+	 
 		
 	web_url("WebTours", 
 		"URL=http://localhost/WebTours/", 
@@ -2616,7 +2616,7 @@ Action()
 	
 lr_start_transaction("Login");
 
-web_reg_find("Text=Error","Fail=Found","LAST"); 
+ 
 
 	web_submit_form("login.pl", 
 		"Snapshot=t2.inf", 
@@ -2635,7 +2635,7 @@ web_reg_find("Text=Error","Fail=Found","LAST");
 
 lr_start_transaction("SearchReis");
 
-web_reg_find("Text=Error","Fail=Found","LAST");
+ 
 	
  
 

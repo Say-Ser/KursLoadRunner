@@ -7,7 +7,7 @@ Registry settings:
 		default	yes
 	AUT
 		(Default)	
-		default	C:\Program Files (x86)\Internet Explorer\iexplore.exe
+		default	C:\Program Files\Internet Explorer\IEXPLORE.EXE http://localhost/WebTours/
 	DebugFilter
 		(Default)	
 		default	off
@@ -166,7 +166,7 @@ Registry settings:
 		default	false
 	TestDir
 		(Default)	
-		default	C:\Users\user\Desktop\KursLoadRunner\Скрипты\01_UserRegistration\data\
+		default	C:\Users\user\Documents\GitHub\KursLoadRunner\Скрипты\01_UserRegistration\data\
 	TrapOnClient
 		default	true
 	TrapOnMainThreadOnly

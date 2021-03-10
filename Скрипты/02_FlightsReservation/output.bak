@@ -1,4 +1,4 @@
-Virtual User Script started at: 28.12.2020 5:11:50
+Virtual User Script started at: 11.03.2021 2:02:36
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -19,8 +19,8 @@ Action.c(7): Found resource "http://localhost/WebTours/images/webtours.png" in H
 Action.c(7): Detected non-resource "http://localhost/cgi-bin/nav.pl?in=home" in "http://localhost/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(7): Detected non-resource "http://localhost/WebTours/home.html" in "http://localhost/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(7): Found resource "http://localhost/WebTours/images/mer_login.gif" in HTML "http://localhost/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
-Action.c(7): web_url("WebTours") was successful, 10076 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(16): Notify: Transaction "WebTours" ended with a "Pass" status (Duration: 0,3858 Wasted Time: 0,1503).
+Action.c(7): web_url("WebTours") was successful, 10071 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(16): Notify: Transaction "WebTours" ended with a "Pass" status (Duration: 0,2809 Wasted Time: 0,1034).
 Action.c(21): Notify: Transaction "LoginUser" started.
 Action.c(23): web_submit_form("login.pl") started  	[MsgId: MMSG-26355]
 Action.c(23): Submitting form to "http://localhost/cgi-bin/login.pl", Target Frame="body"  	[MsgId: MMSG-27978]
@@ -31,7 +31,7 @@ Action.c(23): Found resource "http://localhost/WebTours/images/itinerary.gif" in
 Action.c(23): Found resource "http://localhost/WebTours/images/in_home.gif" in HTML "http://localhost/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
 Action.c(23): Found resource "http://localhost/WebTours/images/signoff.gif" in HTML "http://localhost/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
 Action.c(23): web_submit_form("login.pl") was successful, 5780 body bytes, 2033 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(31): Notify: Transaction "LoginUser" ended with a "Pass" status (Duration: 0,2328 Wasted Time: 0,0111).
+Action.c(31): Notify: Transaction "LoginUser" ended with a "Pass" status (Duration: 0,1554 Wasted Time: 0,0062).
 Action.c(34): Notify: Transaction "SearchReis" started.
 Action.c(36): web_image("Search Flights Button") started  	[MsgId: MMSG-26355]
 Action.c(36): Image-linking to "http://localhost/cgi-bin/welcome.pl?page=search", Target Frame="body"  	[MsgId: MMSG-27993]
@@ -48,20 +48,20 @@ Action.c(42): Registering web_reg_save_param_attrib was successful  	[MsgId: MMS
 Action.c(50): web_submit_form("reservations.pl") started  	[MsgId: MMSG-26355]
 Action.c(50): Submitting form to "http://localhost/cgi-bin/reservations.pl", Target Frame=""  	[MsgId: MMSG-27978]
 Action.c(50): Resource "http://localhost/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-Action.c(50): web_submit_form("reservations.pl") was successful, 2447 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(64): Notify: Transaction "SearchReis" ended with a "Pass" status (Duration: 0,2505 Wasted Time: 0,0120).
+Action.c(50): web_submit_form("reservations.pl") was successful, 2451 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(64): Notify: Transaction "SearchReis" ended with a "Pass" status (Duration: 0,3268 Wasted Time: 0,0206).
 Action.c(66): Notify: Transaction "ChousReis" started.
 Action.c(68): web_submit_form("reservations.pl_2") started  	[MsgId: MMSG-26355]
 Action.c(68): Submitting form to "http://localhost/cgi-bin/reservations.pl", Target Frame=""  	[MsgId: MMSG-27978]
 Action.c(68): Resource "http://localhost/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(68): web_submit_form("reservations.pl_2") was successful, 2712 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(76): Notify: Transaction "ChousReis" ended with a "Pass" status (Duration: 0,2026 Wasted Time: 0,0044).
+Action.c(76): Notify: Transaction "ChousReis" ended with a "Pass" status (Duration: 0,1373 Wasted Time: 0,0073).
 Action.c(80): Notify: Transaction "InputPassData" started.
 Action.c(82): web_submit_form("reservations.pl_3") started  	[MsgId: MMSG-26355]
 Action.c(82): Submitting form to "http://localhost/cgi-bin/reservations.pl", Target Frame=""  	[MsgId: MMSG-27978]
 Action.c(82): Found resource "http://localhost/WebTours/images/bookanother.gif" in HTML "http://localhost/cgi-bin/reservations.pl"  	[MsgId: MMSG-26659]
-Action.c(82): web_submit_form("reservations.pl_3") was successful, 3275 body bytes, 681 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(97): Notify: Transaction "InputPassData" ended with a "Pass" status (Duration: 0,1707 Wasted Time: 0,0047).
+Action.c(82): web_submit_form("reservations.pl_3") was successful, 3279 body bytes, 681 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(97): Notify: Transaction "InputPassData" ended with a "Pass" status (Duration: 0,1544 Wasted Time: 0,0065).
 Action.c(99): Notify: Transaction "Logout" started.
 Action.c(101): web_image("SignOff Button") started  	[MsgId: MMSG-26355]
 Action.c(101): Image-linking to "http://localhost/cgi-bin/welcome.pl?signOff=1", Target Frame="body"  	[MsgId: MMSG-27993]
@@ -70,8 +70,8 @@ Action.c(101): Detected non-resource "http://localhost/WebTours/home.html" in "h
 Action.c(101): Retrieving data from cache for "http://localhost/WebTours/home.html"  	[MsgId: MMSG-26558]
 Action.c(101): Resource "http://localhost/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
 Action.c(101): web_image("SignOff Button") was successful, 2176 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(105): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,2218 Wasted Time: 0,0045).
-Action.c(107): Notify: Transaction "02_FlightsReservation" ended with a "Pass" status (Duration: 2,2299 Wasted Time: 0,1872).
+Action.c(105): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,1882 Wasted Time: 0,0061).
+Action.c(107): Notify: Transaction "02_FlightsReservation" ended with a "Pass" status (Duration: 1,7065 Wasted Time: 0,1501).
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

@@ -51,7 +51,7 @@ vuser_init=cci
 Action=cci
 vuser_end=cci
 [TransactionsOrder]
-Order="04_ReserveRoundtripticket__*delimiter*__WebTours__*delimiter*__Login__*delimiter*__SearchReis__*delimiter*__ChousReis__*delimiter*__Logout__*delimiter*__InputPassData"
+Order="04_ReserveRoundtripticket__*delimiter*__WebTours__*delimiter*__Login__*delimiter*__SearchReis__*delimiter*__ChousReis__*delimiter*__InputPassData__*delimiter*__Logout"
 [StateManagement]
 LastReplayStatus=2
 [ActiveReplay]
@@ -63,5 +63,5 @@ WebTours=
 Login=
 SearchReis=
 ChousReis=
-Logout=
 InputPassData=
+Logout=

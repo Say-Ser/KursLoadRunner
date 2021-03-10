@@ -2597,7 +2597,7 @@ vuser_init()
 # 1 "Action.c" 1
 Action()
 {
-	lr_start_transaction("02_FlightsReservation");
+lr_start_transaction("02_FlightsReservation");
 	
 lr_start_transaction("WebTours");
 

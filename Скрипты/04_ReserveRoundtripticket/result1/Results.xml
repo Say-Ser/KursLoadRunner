@@ -135,7 +135,7 @@
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="28.12.2020 - 6:18:38" eTime="28.12.2020 - 6:18:38" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="04.03.2021 - 21:33:35" eTime="04.03.2021 - 21:33:35" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -144,117 +144,90 @@
 <Action rID="T4">
 <AName><![CDATA[Action]]></AName>
 <Step rID="T5">
-<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=Error</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[28.12.2020 - 6:18:39]]></Time>
-<TimeTick>1609125519</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="9" >
-<Disp><![CDATA[Service: Reg Find]]></Disp>
-</NodeArgs>
-</Step>
-<Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Url: WebTours]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[28.12.2020 - 6:18:39]]></Time>
-<TimeTick>1609125519</TimeTick>
-<NodeArgs eType="General" icon="5" nRep="10" status="Passed" >
+<Time><![CDATA[04.03.2021 - 21:33:36]]></Time>
+<TimeTick>1614882816</TimeTick>
+<NodeArgs eType="General" icon="4" nRep="9" status="Passed" >
 <Disp><![CDATA[Url: WebTours]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t1.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T7">
-<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=Error</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[28.12.2020 - 6:18:39]]></Time>
-<TimeTick>1609125519</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="11" >
-<Disp><![CDATA[Service: Reg Find]]></Disp>
-</NodeArgs>
-</Step>
-<Step rID="T8">
+<Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Submit Form: login.pl]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[28.12.2020 - 6:18:39]]></Time>
-<TimeTick>1609125519</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="12" status="Passed" >
+<Time><![CDATA[04.03.2021 - 21:33:36]]></Time>
+<TimeTick>1614882816</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="10" status="Passed" >
 <Disp><![CDATA[Submit Form: login.pl]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t2.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T9">
-<Obj plainTxt="False" ><![CDATA[Service: Reg Find]]></Obj>
-<Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#00AF00>Text=Error</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[28.12.2020 - 6:18:39]]></Time>
-<TimeTick>1609125519</TimeTick>
-<NodeArgs eType="General" icon="4" nRep="13" >
-<Disp><![CDATA[Service: Reg Find]]></Disp>
-</NodeArgs>
-</Step>
-<Step rID="T10">
+<Step rID="T7">
 <Obj plainTxt="False" ><![CDATA[Image: Search Flights Button]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[28.12.2020 - 6:18:40]]></Time>
-<TimeTick>1609125520</TimeTick>
-<NodeArgs eType="General" icon="7" nRep="14" status="Passed" >
+<Time><![CDATA[04.03.2021 - 21:33:36]]></Time>
+<TimeTick>1614882816</TimeTick>
+<NodeArgs eType="General" icon="6" nRep="11" status="Passed" >
 <Disp><![CDATA[Image: Search Flights Button]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t3.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T11">
+<Step rID="T8">
 <Obj plainTxt="False" ><![CDATA[Submit Form: reservations.pl]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[28.12.2020 - 6:18:40]]></Time>
-<TimeTick>1609125520</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="15" status="Passed" >
+<Time><![CDATA[04.03.2021 - 21:33:36]]></Time>
+<TimeTick>1614882816</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="12" status="Passed" >
 <Disp><![CDATA[Submit Form: reservations.pl]]></Disp>
 <BtmPane vType="HTMLSNSH" >
 <Path><![CDATA[\Iteration1\t4.inf]]></Path>
 </BtmPane>
 </NodeArgs>
 </Step>
-<Step rID="T12">
+<Step rID="T9">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param Attrib]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>outboundFlight</FONT></STRONG><BR>TagName = <STRONG><FONT COLOR=#00AF00>input</FONT></STRONG><BR>Extract = <STRONG><FONT COLOR=#00AF00>value</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[28.12.2020 - 6:18:40]]></Time>
-<TimeTick>1609125520</TimeTick>
-<NodeArgs eType="General" icon="8" nRep="16" >
+<Time><![CDATA[04.03.2021 - 21:33:37]]></Time>
+<TimeTick>1614882817</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="13" >
 <Disp><![CDATA[Service: Reg Save Param Attrib]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T13">
+<Step rID="T10">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param Attrib]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>returnFlight</FONT></STRONG><BR>TagName = <STRONG><FONT COLOR=#00AF00>input</FONT></STRONG><BR>Extract = <STRONG><FONT COLOR=#00AF00>value</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[28.12.2020 - 6:18:40]]></Time>
-<TimeTick>1609125520</TimeTick>
-<NodeArgs eType="General" icon="8" nRep="17" >
+<Time><![CDATA[04.03.2021 - 21:33:37]]></Time>
+<TimeTick>1614882817</TimeTick>
+<NodeArgs eType="General" icon="7" nRep="14" >
 <Disp><![CDATA[Service: Reg Save Param Attrib]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T14">
+<Step rID="T11">
 <Obj plainTxt="False" ><![CDATA[Submit Form: reservations.pl_2]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><FONT COLOR=#FF0031>Step creation failed</CENTER>]]></Details>
-<Time><![CDATA[28.12.2020 - 6:18:40]]></Time>
-<TimeTick>1609125520</TimeTick>
-<NodeArgs eType="General" icon="6" nRep="18" status="Failed" >
+<Time><![CDATA[04.03.2021 - 21:33:37]]></Time>
+<TimeTick>1614882817</TimeTick>
+<NodeArgs eType="General" icon="5" nRep="15" status="Failed" >
 <Disp><![CDATA[Submit Form: reservations.pl_2]]></Disp>
 </NodeArgs>
 </Step>
-<Step rID="T15">
+<Step rID="T12">
 <Obj plainTxt="False" ><![CDATA[Script Aborted!]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#FF0031>Failed</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[28.12.2020 - 6:18:40]]></Time>
-<TimeTick>1609125520</TimeTick>
-<NodeArgs eType="General" icon="1" nRep="19" status="Failed" >
+<Time><![CDATA[04.03.2021 - 21:33:37]]></Time>
+<TimeTick>1614882817</TimeTick>
+<NodeArgs eType="General" icon="1" nRep="16" status="Failed" >
 <Disp><![CDATA[Script Aborted!]]></Disp>
 </NodeArgs>
 </Step>
-<Summary sTime="28.12.2020 - 6:18:38" eTime="28.12.2020 - 6:18:40" passed="4" failed="2" warnings="0" ></Summary>
+<Summary sTime="04.03.2021 - 21:33:35" eTime="04.03.2021 - 21:33:37" passed="4" failed="2" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="8" status="Failed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
@@ -263,14 +236,14 @@
 <Disp><![CDATA[04_ReserveRoundtripticket Iteration 1 (Row 1)]]></Disp>
 </NodeArgs>
 </DIter>
-<Action rID="T16">
+<Action rID="T13">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="28.12.2020 - 6:18:40" eTime="28.12.2020 - 6:18:40" passed="0" failed="0" warnings="0" ></Summary>
-<NodeArgs eType="StartAction" icon="2" nRep="22" >
+<Summary sTime="04.03.2021 - 21:33:37" eTime="04.03.2021 - 21:33:37" passed="0" failed="0" warnings="0" ></Summary>
+<NodeArgs eType="StartAction" icon="2" nRep="19" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="28.12.2020 - 6:18:37" eTime="28.12.2020 - 6:18:41" passed="4" failed="2" warnings="0" ></Summary>
+<Summary sTime="04.03.2021 - 21:33:23" eTime="04.03.2021 - 21:33:38" passed="4" failed="2" warnings="0" ></Summary>
 <NodeArgs eType="StartTest" icon="1" nRep="4" status="Failed" >
 <Disp><![CDATA[Test 04_ReserveRoundtripticket Summary]]></Disp>
 </NodeArgs>
