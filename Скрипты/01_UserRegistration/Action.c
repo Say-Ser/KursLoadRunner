@@ -18,20 +18,13 @@ Action()
 	lr_think_time(9);
 
 	
-	 Users[10][2];
 
-	for (int i=0;i<10;i++)
-		for(int j=0;j<2;j++){
-		Users[i][j]=rand()%90+65;
-		print(User[i][j]+'\n');
-	}
-	
 	web_submit_form("login.pl", 
 		"Snapshot=t11.inf", 
 		ITEMDATA, 
-		"Name=username", "Value=User[i][j]", ENDITEM, 
-		"Name=password", "Value=User[i][j]", ENDITEM, 
-		"Name=passwordConfirm", "Value=User[i][j]", ENDITEM, 
+		"Name=username", "Value={UserName}", ENDITEM, 
+		"Name=password", "Value={Password}", ENDITEM, 
+		"Name=passwordConfirm", "Value={Password}", ENDITEM, 
 		"Name=firstName", "Value=", ENDITEM, 
 		"Name=lastName", "Value=", ENDITEM, 
 		"Name=address1", "Value=", ENDITEM, 

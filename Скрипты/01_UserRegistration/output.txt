@@ -1400,5 +1400,3 @@ t=13000ms: Closed connection [2] to localhost:80 after completing 3 request(s)  
 t=13000ms: Closed connection [3] to localhost:80 after completing 2 request(s)  	[MsgId: MMSG-26000]
 t=13000ms: Closed connection [4] to localhost:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
 t=13000ms: Closed connection [5] to localhost:80 after completing 1 request(s)  	[MsgId: MMSG-26000]
-HTML-Mode memory management statistics: Reusable=6, NonReusable=0, CsMemBlockSize=4096, checks disabled  	[MsgId: MMSG-26000]
-Vuser 0 (thread 8676), ended OK."

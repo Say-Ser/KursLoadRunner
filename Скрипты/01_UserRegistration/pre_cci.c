@@ -2618,14 +2618,7 @@ Action()
 	lr_think_time(9);
 
 	
-	 Users[10][2];
 
-	for (int i=0;i<10;i++)
-		for(int j=0;j<2;j++){
-		Users[i][j]=rand()%90+65;
-		print(User[i][j]+'\n');
-	}
-	
 	web_submit_form("login.pl", 
 		"Snapshot=t11.inf", 
 		"ITEMDATA", 
