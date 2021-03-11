@@ -1,27 +1,37 @@
 [
     {
         "transactionName": "WebTours",
-        "rawStartTime": 1614882815980,
-        "rawEndTime": 1614882816210
+        "rawStartTime": 1615421731073,
+        "rawEndTime": 1615421731278
     },
     {
         "transactionName": "Login",
-        "rawStartTime": 1614882816272,
-        "rawEndTime": 1614882816457
+        "rawStartTime": 1615421731311,
+        "rawEndTime": 1615421731482
     },
     {
         "transactionName": "SearchReis",
-        "rawStartTime": 1614882816538,
-        "rawEndTime": 1614882816914
+        "rawStartTime": 1615421731544,
+        "rawEndTime": 1615421731824
     },
     {
         "transactionName": "ChousReis",
-        "rawStartTime": 1614882817039,
-        "rawEndTime": 1614882817123
+        "rawStartTime": 1615421731886,
+        "rawEndTime": 1615421732010
+    },
+    {
+        "transactionName": "InputPassData",
+        "rawStartTime": 1615421732088,
+        "rawEndTime": 1615421732213
+    },
+    {
+        "transactionName": "Logout",
+        "rawStartTime": 1615421732260,
+        "rawEndTime": 1615421732385
     },
     {
         "transactionName": "04_ReserveRoundtripticket",
-        "rawStartTime": 1614882815934,
-        "rawEndTime": 1614882817123
+        "rawStartTime": 1615421731041,
+        "rawEndTime": 1615421732432
     }
 ]

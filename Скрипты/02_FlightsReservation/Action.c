@@ -30,7 +30,8 @@ lr_start_transaction("LoginUser");
 		LAST);
 lr_end_transaction("LoginUser", LR_AUTO);
 
-
+	lr_think_time(4);
+	
 lr_start_transaction("SearchReis");
 
 	web_image("Search Flights Button", 
