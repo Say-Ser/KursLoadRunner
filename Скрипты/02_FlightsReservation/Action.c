@@ -18,7 +18,7 @@ lr_end_transaction("WebTours", LR_AUTO);
 
 	lr_think_time(9);
 
-lr_start_transaction("LoginUser");
+lr_start_transaction("Login");
 	
 	web_submit_form("login.pl", 
 		"Snapshot=t10.inf", 
@@ -28,7 +28,7 @@ lr_start_transaction("LoginUser");
 		"Name=login.x", "Value=62", ENDITEM, 
 		"Name=login.y", "Value=3", ENDITEM, 
 		LAST);
-lr_end_transaction("LoginUser", LR_AUTO);
+lr_end_transaction("Login", LR_AUTO);
 
 	lr_think_time(4);
 	

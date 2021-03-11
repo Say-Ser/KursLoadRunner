@@ -2615,7 +2615,7 @@ lr_end_transaction("WebTours", 2);
 
 	lr_think_time(9);
 
-lr_start_transaction("LoginUser");
+lr_start_transaction("Login");
 	
 	web_submit_form("login.pl", 
 		"Snapshot=t10.inf", 
@@ -2625,9 +2625,10 @@ lr_start_transaction("LoginUser");
 		"Name=login.x", "Value=62", "ENDITEM", 
 		"Name=login.y", "Value=3", "ENDITEM", 
 		"LAST");
-lr_end_transaction("LoginUser", 2);
+lr_end_transaction("Login", 2);
 
-
+	lr_think_time(4);
+	
 lr_start_transaction("SearchReis");
 
 	web_image("Search Flights Button", 

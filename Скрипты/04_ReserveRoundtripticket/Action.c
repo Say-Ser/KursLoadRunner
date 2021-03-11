@@ -44,7 +44,6 @@ lr_start_transaction("SearchReis");
 	
 //Correlation comment - Do not change!  Original value='07/09/2020' Name ='departDate' Type ='RecordReplay'
 
-
 	web_image("Search Flights Button", 
 		"Alt=Search Flights Button", 
 		"Snapshot=t3.inf", 
@@ -58,7 +57,6 @@ lr_start_transaction("SearchReis");
 		"Type=radio",
 		LAST);
 	
-	
 	web_reg_save_param_attrib(
 		"ParamName=returnFlight",
 		"TagName=input",
@@ -67,39 +65,6 @@ lr_start_transaction("SearchReis");
 		"Type=radio",
 		LAST);
 
-
-/*	web_reg_save_param_attrib(
-		"ParamName=seatType",
-		"TagName=input",
-		"Extract=value",
-		"Name=seatType",
-		"Type=radio",
-		SEARCH_FILTERS,
-		"IgnoreRedirections=No",
-		"RequestUrl=reservations.pl*",
-		LAST);*/
-
-	/*
-web_reg_save_param_attrib(
-		"ParamName=departDate",
-		"TagName=input",
-		"Extract=value",
-		"Name=departDate",
-		"Type=text",
-		SEARCH_FILTERS,
-		"RequestUrl=reservations.pl*",
-		LAST);
-
-	web_reg_save_param_attrib(
-		"ParamName=returnFlight",
-		"TagName=input",
-		"Extract=value",
-		"Name=returnFlight",
-		"Type=radio",
-		SEARCH_FILTERS,
-		"IgnoreRedirections=No",
-		LAST);
-*/
 	web_submit_form("reservations.pl",
 		"Snapshot=t4.inf",
 		ITEMDATA,
@@ -117,11 +82,6 @@ web_reg_save_param_attrib(
 
 	lr_end_transaction("SearchReis", LR_AUTO);
 
-	
-
-
-
-	
 	
 	lr_start_transaction("ChousReis");	
 	

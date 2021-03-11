@@ -2639,7 +2639,6 @@ lr_start_transaction("SearchReis");
 	
  
 
-
 	web_image("Search Flights Button", 
 		"Alt=Search Flights Button", 
 		"Snapshot=t3.inf", 
@@ -2653,7 +2652,6 @@ lr_start_transaction("SearchReis");
 		"Type=radio",
 		"LAST");
 	
-	
 	web_reg_save_param_attrib(
 		"ParamName=returnFlight",
 		"TagName=input",
@@ -2662,12 +2660,6 @@ lr_start_transaction("SearchReis");
 		"Type=radio",
 		"LAST");
 
-
- 
-# 81 "Action.c"
-
-	 
-# 103 "Action.c"
 	web_submit_form("reservations.pl",
 		"Snapshot=t4.inf",
 		"ITEMDATA",
@@ -2685,11 +2677,6 @@ lr_start_transaction("SearchReis");
 
 	lr_end_transaction("SearchReis", 2);
 
-	
-
-
-
-	
 	
 	lr_start_transaction("ChousReis");	
 	

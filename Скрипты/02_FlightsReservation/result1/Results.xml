@@ -135,7 +135,7 @@
 <Res><![CDATA[result1]]></Res>
 <Action rID="T2">
 <AName><![CDATA[vuser_init]]></AName>
-<Summary sTime="11.03.2021 - 3:05:20" eTime="11.03.2021 - 3:05:20" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="11.03.2021 - 3:49:32" eTime="11.03.2021 - 3:49:32" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="5" >
 <Disp><![CDATA[vuser_init Summary]]></Disp>
 </NodeArgs>
@@ -146,8 +146,8 @@
 <Step rID="T5">
 <Obj plainTxt="False" ><![CDATA[Url: WebTours]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11.03.2021 - 3:05:20]]></Time>
-<TimeTick>1615421120</TimeTick>
+<Time><![CDATA[11.03.2021 - 3:49:32]]></Time>
+<TimeTick>1615423772</TimeTick>
 <NodeArgs eType="General" icon="4" nRep="9" status="Passed" >
 <Disp><![CDATA[Url: WebTours]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -158,8 +158,8 @@
 <Step rID="T6">
 <Obj plainTxt="False" ><![CDATA[Submit Form: login.pl]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11.03.2021 - 3:05:20]]></Time>
-<TimeTick>1615421120</TimeTick>
+<Time><![CDATA[11.03.2021 - 3:49:32]]></Time>
+<TimeTick>1615423772</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="10" status="Passed" >
 <Disp><![CDATA[Submit Form: login.pl]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -170,8 +170,8 @@
 <Step rID="T7">
 <Obj plainTxt="False" ><![CDATA[Image: Search Flights Button]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11.03.2021 - 3:05:21]]></Time>
-<TimeTick>1615421121</TimeTick>
+<Time><![CDATA[11.03.2021 - 3:49:33]]></Time>
+<TimeTick>1615423773</TimeTick>
 <NodeArgs eType="General" icon="6" nRep="11" status="Passed" >
 <Disp><![CDATA[Image: Search Flights Button]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -182,8 +182,8 @@
 <Step rID="T8">
 <Obj plainTxt="False" ><![CDATA[Service: Reg Save Param Attrib]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER>ParamName = <STRONG><FONT COLOR=#00AF00>outboundFlight</FONT></STRONG><BR>TagName = <STRONG><FONT COLOR=#00AF00>input</FONT></STRONG><BR>Extract = <STRONG><FONT COLOR=#00AF00>value</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11.03.2021 - 3:05:21]]></Time>
-<TimeTick>1615421121</TimeTick>
+<Time><![CDATA[11.03.2021 - 3:49:33]]></Time>
+<TimeTick>1615423773</TimeTick>
 <NodeArgs eType="General" icon="7" nRep="12" >
 <Disp><![CDATA[Service: Reg Save Param Attrib]]></Disp>
 </NodeArgs>
@@ -191,8 +191,8 @@
 <Step rID="T9">
 <Obj plainTxt="False" ><![CDATA[Submit Form: reservations.pl]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11.03.2021 - 3:05:21]]></Time>
-<TimeTick>1615421121</TimeTick>
+<Time><![CDATA[11.03.2021 - 3:49:33]]></Time>
+<TimeTick>1615423773</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="13" status="Passed" >
 <Disp><![CDATA[Submit Form: reservations.pl]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -203,8 +203,8 @@
 <Step rID="T10">
 <Obj plainTxt="False" ><![CDATA[Submit Form: reservations.pl_2]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11.03.2021 - 3:05:21]]></Time>
-<TimeTick>1615421121</TimeTick>
+<Time><![CDATA[11.03.2021 - 3:49:33]]></Time>
+<TimeTick>1615423773</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="14" status="Passed" >
 <Disp><![CDATA[Submit Form: reservations.pl_2]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -215,8 +215,8 @@
 <Step rID="T11">
 <Obj plainTxt="False" ><![CDATA[Submit Form: reservations.pl_3]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11.03.2021 - 3:05:21]]></Time>
-<TimeTick>1615421121</TimeTick>
+<Time><![CDATA[11.03.2021 - 3:49:33]]></Time>
+<TimeTick>1615423773</TimeTick>
 <NodeArgs eType="General" icon="5" nRep="15" status="Passed" >
 <Disp><![CDATA[Submit Form: reservations.pl_3]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -227,8 +227,8 @@
 <Step rID="T12">
 <Obj plainTxt="False" ><![CDATA[Image: SignOff Button]]></Obj>
 <Details plainTxt="False" ><![CDATA[<CENTER><STRONG><FONT COLOR=#009A63>Step completed successfully</FONT></STRONG></CENTER>]]></Details>
-<Time><![CDATA[11.03.2021 - 3:05:21]]></Time>
-<TimeTick>1615421121</TimeTick>
+<Time><![CDATA[11.03.2021 - 3:49:33]]></Time>
+<TimeTick>1615423773</TimeTick>
 <NodeArgs eType="General" icon="6" nRep="16" status="Passed" >
 <Disp><![CDATA[Image: SignOff Button]]></Disp>
 <BtmPane vType="HTMLSNSH" >
@@ -236,7 +236,7 @@
 </BtmPane>
 </NodeArgs>
 </Step>
-<Summary sTime="11.03.2021 - 3:05:20" eTime="11.03.2021 - 3:05:21" passed="7" failed="0" warnings="0" ></Summary>
+<Summary sTime="11.03.2021 - 3:49:32" eTime="11.03.2021 - 3:49:34" passed="7" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="8" status="Passed" >
 <Disp><![CDATA[Action Summary]]></Disp>
 </NodeArgs>
@@ -247,12 +247,12 @@
 </DIter>
 <Action rID="T13">
 <AName><![CDATA[vuser_end]]></AName>
-<Summary sTime="11.03.2021 - 3:05:22" eTime="11.03.2021 - 3:05:22" passed="0" failed="0" warnings="0" ></Summary>
+<Summary sTime="11.03.2021 - 3:49:34" eTime="11.03.2021 - 3:49:34" passed="0" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartAction" icon="2" nRep="19" >
 <Disp><![CDATA[vuser_end Summary]]></Disp>
 </NodeArgs>
 </Action>
-<Summary sTime="11.03.2021 - 3:05:18" eTime="11.03.2021 - 3:05:22" passed="7" failed="0" warnings="0" ></Summary>
+<Summary sTime="11.03.2021 - 3:49:30" eTime="11.03.2021 - 3:49:34" passed="7" failed="0" warnings="0" ></Summary>
 <NodeArgs eType="StartTest" icon="1" nRep="4" status="Passed" >
 <Disp><![CDATA[Test 02_FlightsReservation Summary]]></Disp>
 </NodeArgs>

@@ -1,4 +1,4 @@
-Virtual User Script started at: 11.03.2021 3:03:01
+Virtual User Script started at: 11.03.2021 3:49:03
 Starting action vuser_init.
 Web Turbo Replay of LoadRunner 12.55.0 for Windows 10; build 911 (èþë 24 2017 19:46:00)  	[MsgId: MMSG-26983]
 Run mode: HTML  	[MsgId: MMSG-26993]
@@ -19,9 +19,9 @@ Action.c(7): Found resource "http://localhost/WebTours/images/webtours.png" in H
 Action.c(7): Detected non-resource "http://localhost/cgi-bin/nav.pl?in=home" in "http://localhost/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(7): Detected non-resource "http://localhost/WebTours/home.html" in "http://localhost/cgi-bin/welcome.pl?signOff=true"  	[MsgId: MMSG-26574]
 Action.c(7): Found resource "http://localhost/WebTours/images/mer_login.gif" in HTML "http://localhost/cgi-bin/nav.pl?in=home"  	[MsgId: MMSG-26659]
-Action.c(7): web_url("WebTours") was successful, 10080 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(16): Notify: Transaction "WebTours" ended with a "Pass" status (Duration: 0,2170 Wasted Time: 0,0828).
-Action.c(21): Notify: Transaction "LoginUser" started.
+Action.c(7): web_url("WebTours") was successful, 10077 body bytes, 2371 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(16): Notify: Transaction "WebTours" ended with a "Pass" status (Duration: 0,2011 Wasted Time: 0,0930).
+Action.c(21): Notify: Transaction "Login" started.
 Action.c(23): web_submit_form("login.pl") started  	[MsgId: MMSG-26355]
 Action.c(23): Submitting form to "http://localhost/cgi-bin/login.pl", Target Frame="body"  	[MsgId: MMSG-27978]
 Action.c(23): Detected non-resource "http://localhost/cgi-bin/nav.pl?page=menu&in=home" in "http://localhost/cgi-bin/login.pl"  	[MsgId: MMSG-26574]
@@ -31,47 +31,30 @@ Action.c(23): Found resource "http://localhost/WebTours/images/itinerary.gif" in
 Action.c(23): Found resource "http://localhost/WebTours/images/in_home.gif" in HTML "http://localhost/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
 Action.c(23): Found resource "http://localhost/WebTours/images/signoff.gif" in HTML "http://localhost/cgi-bin/nav.pl?page=menu&in=home"  	[MsgId: MMSG-26659]
 Action.c(23): web_submit_form("login.pl") was successful, 5780 body bytes, 2033 header bytes, 36 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(31): Notify: Transaction "LoginUser" ended with a "Pass" status (Duration: 0,1374 Wasted Time: 0,0068).
-Action.c(34): Notify: Transaction "SearchReis" started.
-Action.c(36): web_image("Search Flights Button") started  	[MsgId: MMSG-26355]
-Action.c(36): Image-linking to "http://localhost/cgi-bin/welcome.pl?page=search", Target Frame="body"  	[MsgId: MMSG-27993]
-Action.c(36): Detected non-resource "http://localhost/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
-Action.c(36): Detected non-resource "http://localhost/cgi-bin/reservations.pl?page=welcome" in "http://localhost/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
-Action.c(36): Found resource "http://localhost/WebTours/images/in_flights.gif" in HTML "http://localhost/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
-Action.c(36): Resource "http://localhost/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-Action.c(36): Found resource "http://localhost/WebTours/images/home.gif" in HTML "http://localhost/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
-Action.c(36): Resource "http://localhost/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-Action.c(36): Found resource "http://localhost/WebTours/images/button_next.gif" in HTML "http://localhost/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
-Action.c(36): web_image("Search Flights Button") was successful, 8516 body bytes, 1616 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(42): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
-Action.c(42): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
-Action.c(50): web_submit_form("reservations.pl") started  	[MsgId: MMSG-26355]
-Action.c(50): Submitting form to "http://localhost/cgi-bin/reservations.pl", Target Frame=""  	[MsgId: MMSG-27978]
-Action.c(50): Resource "http://localhost/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-Action.c(50): web_submit_form("reservations.pl") was successful, 2439 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(64): Notify: Transaction "SearchReis" ended with a "Pass" status (Duration: 0,2222 Wasted Time: 0,0122).
-Action.c(66): Notify: Transaction "ChousReis" started.
-Action.c(68): web_submit_form("reservations.pl_2") started  	[MsgId: MMSG-26355]
-Action.c(68): Submitting form to "http://localhost/cgi-bin/reservations.pl", Target Frame=""  	[MsgId: MMSG-27978]
-Action.c(68): Resource "http://localhost/WebTours/images/button_next.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-Action.c(68): web_submit_form("reservations.pl_2") was successful, 2712 body bytes, 255 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(76): Notify: Transaction "ChousReis" ended with a "Pass" status (Duration: 0,1093 Wasted Time: 0,0057).
-Action.c(80): Notify: Transaction "InputPassData" started.
-Action.c(82): web_submit_form("reservations.pl_3") started  	[MsgId: MMSG-26355]
-Action.c(82): Submitting form to "http://localhost/cgi-bin/reservations.pl", Target Frame=""  	[MsgId: MMSG-27978]
-Action.c(82): Found resource "http://localhost/WebTours/images/bookanother.gif" in HTML "http://localhost/cgi-bin/reservations.pl"  	[MsgId: MMSG-26659]
-Action.c(82): web_submit_form("reservations.pl_3") was successful, 3267 body bytes, 681 header bytes, 12 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(97): Notify: Transaction "InputPassData" ended with a "Pass" status (Duration: 0,0954 Wasted Time: 0,0048).
-Action.c(99): Notify: Transaction "Logout" started.
-Action.c(101): web_image("SignOff Button") started  	[MsgId: MMSG-26355]
-Action.c(101): Image-linking to "http://localhost/cgi-bin/welcome.pl?signOff=1", Target Frame="body"  	[MsgId: MMSG-27993]
-Action.c(101): Detected non-resource "http://localhost/cgi-bin/nav.pl?in=home" in "http://localhost/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
-Action.c(101): Detected non-resource "http://localhost/WebTours/home.html" in "http://localhost/cgi-bin/welcome.pl?signOff=1"  	[MsgId: MMSG-26574]
-Action.c(101): Retrieving data from cache for "http://localhost/WebTours/home.html"  	[MsgId: MMSG-26558]
-Action.c(101): Resource "http://localhost/WebTours/images/mer_login.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
-Action.c(101): web_image("SignOff Button") was successful, 2175 body bytes, 582 header bytes, 24 chunking overhead bytes  	[MsgId: MMSG-26385]
-Action.c(105): Notify: Transaction "Logout" ended with a "Pass" status (Duration: 0,1425 Wasted Time: 0,0054).
-Action.c(107): Notify: Transaction "02_FlightsReservation" ended with a "Pass" status (Duration: 1,3010 Wasted Time: 0,1177).
+Action.c(31): Notify: Transaction "Login" ended with a "Pass" status (Duration: 0,1570 Wasted Time: 0,0081).
+Action.c(35): Notify: Transaction "SearchReis" started.
+Action.c(37): web_image("Search Flights Button") started  	[MsgId: MMSG-26355]
+Action.c(37): Image-linking to "http://localhost/cgi-bin/welcome.pl?page=search", Target Frame="body"  	[MsgId: MMSG-27993]
+Action.c(37): Detected non-resource "http://localhost/cgi-bin/nav.pl?page=menu&in=flights" in "http://localhost/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action.c(37): Detected non-resource "http://localhost/cgi-bin/reservations.pl?page=welcome" in "http://localhost/cgi-bin/welcome.pl?page=search"  	[MsgId: MMSG-26574]
+Action.c(37): Found resource "http://localhost/WebTours/images/in_flights.gif" in HTML "http://localhost/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action.c(37): Resource "http://localhost/WebTours/images/itinerary.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(37): Found resource "http://localhost/WebTours/images/home.gif" in HTML "http://localhost/cgi-bin/nav.pl?page=menu&in=flights"  	[MsgId: MMSG-26659]
+Action.c(37): Resource "http://localhost/WebTours/images/signoff.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Action.c(37): Found resource "http://localhost/WebTours/images/button_next.gif" in HTML "http://localhost/cgi-bin/reservations.pl?page=welcome"  	[MsgId: MMSG-26659]
+Action.c(37): web_image("Search Flights Button") was successful, 8516 body bytes, 1616 header bytes, 43 chunking overhead bytes  	[MsgId: MMSG-26385]
+Action.c(43): web_reg_save_param_attrib started  	[MsgId: MMSG-26355]
+Action.c(43): Registering web_reg_save_param_attrib was successful  	[MsgId: MMSG-26390]
+Action.c(51): web_submit_form("reservations.pl") started  	[MsgId: MMSG-26355]
+Action.c(51): Error -27979: Requested form not found  	[MsgId: MERR-27979]
+Action.c(51): Warning -26379: Pending web_reg_save_param/web_reg_find/web_create_html_param/web_create_html_param_ex request(s) are deleted and will be handled as "not found"  	[MsgId: MWAR-26379]
+Action.c(51): web_submit_form("reservations.pl") highest severity level was "ERROR", 0 body bytes, 0 header bytes  	[MsgId: MMSG-26388]
+Action.c(51): Notify: Transaction "SearchReis" ended with a "Fail" status (Duration: 0,2119 Wasted Time: 0,0085).
+Action.c(51): Notify: Transaction "SearchReis" has 1 error message(s).
+Action.c(51): Notify: The 1st error message associated with transaction "SearchReis" is "Error -27979: Requested form not found"
+Action.c(51): Notify: Transaction "02_FlightsReservation" ended with a "Fail" status (Duration: 0,7581 Wasted Time: 0,1097).
+Action.c(51): Notify: Transaction "02_FlightsReservation" has 1 error message(s).
+Action.c(51): Notify: The 1st error message associated with transaction "02_FlightsReservation" is "Error -27979: Requested form not found"
 Ending action Action.
 Ending iteration 1.
 Ending Vuser...

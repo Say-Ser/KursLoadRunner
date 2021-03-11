@@ -1,4 +1,4 @@
 "firstName=&lastName=&address1=&address2=&pass1=+&creditCard=123456&expDate=213&saveCC=on&oldCC"
-"Option=on&numPassengers=1&seatType=First&seatPref=Aisle&outboundFlight=300%3B472%3B03%2F08%2F2"
+"Option=on&numPassengers=1&seatType=First&seatPref=Aisle&outboundFlight=340%3B822%3B03%2F08%2F2"
 "021&advanceDiscount=0&returnFlight=&JSFormSubmit=off&.cgifields=saveCC&buyFlights.x=61&buyFlig"
 "hts.y=9"
