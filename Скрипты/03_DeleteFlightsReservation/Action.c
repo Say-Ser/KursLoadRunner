@@ -23,7 +23,7 @@ lr_end_transaction("WebTours", LR_AUTO);
 	lr_think_time(10);
 
 	
-lr_start_transaction("LoginUser");
+lr_start_transaction("Login");
 
 web_reg_find("Text=Error","Fail=Found",LAST);
 
@@ -36,7 +36,7 @@ web_reg_find("Text=Error","Fail=Found",LAST);
 		"Name=login.y", "Value=5", ENDITEM, 
 		LAST);
 
-lr_end_transaction("LoginUser", LR_AUTO);
+lr_end_transaction("Login", LR_AUTO);
 
 lr_start_transaction("DeleteItinerary");
 

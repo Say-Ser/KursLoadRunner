@@ -2599,7 +2599,7 @@ Action()
 	
 		lr_start_transaction("WebTours");
 		
-	 
+		web_reg_find("Text=Welcome to the Web Tours site","LAST");
 		
 	web_url("WebTours", 
 		"URL=http://localhost/WebTours/", 
@@ -2616,7 +2616,9 @@ Action()
 	
 lr_start_transaction("Login");
 
+
  
+web_reg_find("Text=User password was correct","LAST");
 
 	web_submit_form("login.pl", 
 		"Snapshot=t2.inf", 
@@ -2635,7 +2637,7 @@ lr_start_transaction("Login");
 
 lr_start_transaction("SearchReis");
 
- 
+web_reg_find("Text=Find Flight","LAST");
 	
  
 
@@ -2659,6 +2661,8 @@ lr_start_transaction("SearchReis");
 		"Name=returnFlight",
 		"Type=radio",
 		"LAST");
+		
+web_reg_find("Text=Flight departing from","LAST");
 
 	web_submit_form("reservations.pl",
 		"Snapshot=t4.inf",
@@ -2680,6 +2684,9 @@ lr_start_transaction("SearchReis");
 	
 	lr_start_transaction("ChousReis");	
 	
+	 
+
+	
 	
 	web_submit_form("reservations.pl_2",
 		"Snapshot=t5.inf",
@@ -2700,7 +2707,7 @@ lr_end_transaction("ChousReis", 2);
 	
 	lr_start_transaction("InputPassData");
 	
- 
+web_reg_find("Text=Save this Credit Card Information","LAST");
 	 
 
 	web_submit_form("reservations.pl_3", 
