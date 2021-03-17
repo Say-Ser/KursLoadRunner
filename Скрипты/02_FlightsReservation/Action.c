@@ -4,6 +4,11 @@ lr_start_transaction("02_FlightsReservation");
 	
 lr_start_transaction("WebTours");
 
+
+web_reg_find("Text=Welcome to the Web Tours site.",
+		LAST);
+		
+		
 	web_url("WebTours", 
 		"URL=http://localhost/WebTours/", 
 		"Resource=0", 
@@ -20,6 +25,9 @@ lr_end_transaction("WebTours", LR_AUTO);
 
 lr_start_transaction("Login");
 	
+	web_reg_find("Text=Welcome, <b>{Login}</b>, to the Web Tours reservation pages.", 
+		LAST);
+		
 	web_submit_form("login.pl", 
 		"Snapshot=t10.inf", 
 		ITEMDATA, 
@@ -48,7 +56,9 @@ lr_start_transaction("SearchReis");
 		"Type=radio",
 		LAST);
 
-	web_submit_form("reservations.pl", 
+//web_reg_find("Text=Flight departing from <b>{arrive}</b> to <b>{depart}</b> on <b>{departDate}</b>", LAST);
+	
+web_submit_form("reservations.pl",
 		"Snapshot=t12.inf", 
 		ITEMDATA,
 		"Name=depart", "Value={depart}", ENDITEM,
@@ -66,6 +76,9 @@ lr_end_transaction("SearchReis", LR_AUTO);
 
 lr_start_transaction("ChousReis");
 
+web_reg_find("Text=Payment Details", 
+		LAST);
+
 	web_submit_form("reservations.pl_2",
 		"Snapshot=t13.inf",
 		ITEMDATA,
@@ -79,7 +92,10 @@ lr_end_transaction("ChousReis", LR_AUTO);
 	lr_think_time(4);
 
 	lr_start_transaction("InputPassData");
-
+	
+	web_reg_find("Text=Thank you for booking through Web Tours.", 
+		LAST);
+	
 	web_submit_form("reservations.pl_3", 
 		"Snapshot=t14.inf", 
 		ITEMDATA, 
@@ -99,10 +115,14 @@ lr_end_transaction("InputPassData", LR_AUTO);
 
 lr_start_transaction("Logout");
 
+	web_reg_find("Text=Welcome to the Web Tours site.", 
+		LAST); 
+		
 web_image("SignOff Button", 
 		"Alt=SignOff Button", 
 		"Snapshot=t15.inf", 
 		LAST);
+		
 lr_end_transaction("Logout", LR_AUTO);
 
 lr_end_transaction("02_FlightsReservation", LR_AUTO);

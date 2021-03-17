@@ -1,6 +1,1 @@
-"flightID=128025946-811-%0A&flightID=128022236-1567-%0A&flightID=128014839-2358-%0A&flightID=12"
-"80000-30-%0A&flightID=128025946-3888-%0A&flightID=128025946-4657-%0A&flightID=128011128-5420-%"
-"0A&flightID=202022236-620058-PM&flightID=2020081-7092-PM&flightID=202003362-8384736-PM&flightI"
-"D=202034468-8761646-PM&flightID=2020029684-9846382-PM&.cgifields=6&.cgifields=11&.cgifields=3&"
-".cgifields=7&.cgifields=9&.cgifields=12&.cgifields=2&.cgifields=8&.cgifields=1&.cgifields=4&.c"
-"gifields=10&.cgifields=5&removeAllFlights.x=44&removeAllFlights.y=12"
+"flightID=1280000-7-%0A&.cgifields=1&removeAllFlights.x=44&removeAllFlights.y=12"

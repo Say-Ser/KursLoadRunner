@@ -2602,7 +2602,12 @@ lr_start_transaction("03_DeleteFlightsReservation");
 	
 lr_start_transaction("WebTours");
 
-web_reg_find("Text=Error","Fail=Found","LAST");
+
+
+web_reg_find("Text=Welcome to the Web Tours site.",
+		"LAST");
+		
+		
 
 	web_url("WebTours", 
 		"URL=http://localhost/WebTours/", 
@@ -2618,9 +2623,11 @@ lr_end_transaction("WebTours", 2);
 	lr_think_time(10);
 
 	
-lr_start_transaction("LoginUser");
+lr_start_transaction("Login");
 
-web_reg_find("Text=Error","Fail=Found","LAST");
+
+	web_reg_find("Text=Welcome, <b>{Login}</b>, to the Web Tours reservation pages.", 
+		"LAST");
 
 	web_submit_form("login.pl", 
 		"Snapshot=t2.inf", 
@@ -2631,11 +2638,11 @@ web_reg_find("Text=Error","Fail=Found","LAST");
 		"Name=login.y", "Value=5", "ENDITEM", 
 		"LAST");
 
-lr_end_transaction("LoginUser", 2);
+lr_end_transaction("Login", 2);
 
 lr_start_transaction("DeleteItinerary");
 
-web_reg_find("Text=Error","Fail=Found","LAST");
+web_reg_find("Text=Itinerary", 		"LAST");
 
 	web_image("Itinerary Button", 
 		"Alt=Itinerary Button", 
@@ -2644,9 +2651,7 @@ web_reg_find("Text=Error","Fail=Found","LAST");
 
 	lr_think_time(24);
 
-	
- 
-# 66 "Action.c"
+	web_reg_find("Text=No flights have been reserved.", 		"LAST");
 
 	web_submit_form("itinerary.pl", 
 		"Snapshot=t27.inf", 
@@ -2660,7 +2665,9 @@ lr_end_transaction("DeleteItinerary", 2);
 
 lr_start_transaction("Logout");
 
-web_reg_find("Text=Error","Fail=Found","LAST");
+web_reg_find("Text=Welcome to the Web Tours site.", 
+		"LAST"); 
+		
 
 	web_url("welcome.pl", 
 		"URL=http://localhost/cgi-bin/welcome.pl?signOff=1", 

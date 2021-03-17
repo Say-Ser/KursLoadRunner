@@ -4,6 +4,11 @@ lr_start_transaction("01_UserRegistration");
 	
 lr_start_transaction("WebTours");
 
+
+web_reg_find("Text=Welcome to the Web Tours site.", 
+		LAST);
+
+
 	web_url("WebTours", 
 		"URL=http://localhost/WebTours/", 
 		"Resource=0", 

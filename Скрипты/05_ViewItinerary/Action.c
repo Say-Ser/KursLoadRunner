@@ -4,7 +4,7 @@ lr_start_transaction("05_ViewItinerary");
 
 	lr_start_transaction("WebTours");	
 	
-	web_reg_find("Text=Error","Fail=Found",LAST);
+		web_reg_find("Text=Welcome to the Web Tours site",LAST);
 	
 	web_url("WebTours", 
 		"URL=http://localhost/WebTours/", 
@@ -20,7 +20,7 @@ lr_think_time(11);
 
 lr_start_transaction("Login");
 
-web_reg_find("Text=to the Web Tours reservation pages",LAST);
+web_reg_find("Text=Welcome, <b>{Login}</b>, to the Web Tours reservation pages",LAST);
 
 	web_submit_form("login.pl", 
 		"Snapshot=t2.inf", 
@@ -33,6 +33,7 @@ web_reg_find("Text=to the Web Tours reservation pages",LAST);
 	lr_end_transaction("Login",LR_AUTO);
 	
 	lr_start_transaction("ViewTicket");
+	web_reg_find("Text=Itinerary", 		LAST);
 	
 	web_image("Itinerary Button", 
 		"Alt=Itinerary Button", 
@@ -41,7 +42,12 @@ web_reg_find("Text=to the Web Tours reservation pages",LAST);
 lr_end_transaction("ViewTicket", LR_AUTO);
 
 	lr_think_time(4);
+	
 	lr_start_transaction("Logout");
+	
+	web_reg_find("Text=Welcome to the Web Tours site.", 
+		LAST);
+	
 	web_image("SignOff Button", 
 		"Alt=SignOff Button", 
 		"Snapshot=t4.inf", 

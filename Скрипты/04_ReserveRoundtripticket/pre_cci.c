@@ -2618,7 +2618,7 @@ lr_start_transaction("Login");
 
 
 web_reg_find("Text=Welcome, <b>{Login}</b>, to the Web Tours reservation pages","LAST");
- 
+
 
 	web_submit_form("login.pl", 
 		"Snapshot=t2.inf", 
@@ -2684,7 +2684,7 @@ web_reg_find("Text=Flight departing from","LAST");
 	
 	lr_start_transaction("ChousReis");	
 	
-	web_reg_find("Text=Flight departing from <b>{depart}</b> to <b>{arrive}</b> on <b>{departDate}</b>","LAST");
+	 
 
 	
 	
@@ -2707,7 +2707,8 @@ lr_end_transaction("ChousReis", 2);
 	
 	lr_start_transaction("InputPassData");
 	
- 
+	web_reg_find("Text=Thank you for booking through Web Tours.", 
+		"LAST");
 	 
 
 	web_submit_form("reservations.pl_3", 
@@ -2729,6 +2730,9 @@ lr_end_transaction("ChousReis", 2);
 	
 	lr_start_transaction("Logout");
 	
+	web_reg_find("Text=Welcome to the Web Tours site.", 
+		"LAST");
+
 	web_image("SignOff Button", 
 		"Alt=SignOff Button", 
 		"Snapshot=t7.inf", 

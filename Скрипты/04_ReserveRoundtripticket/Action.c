@@ -23,7 +23,7 @@ lr_start_transaction("Login");
 
 
 web_reg_find("Text=Welcome, <b>{Login}</b>, to the Web Tours reservation pages",LAST);
-//web_reg_find("Text=User password was correct",LAST);
+
 
 	web_submit_form("login.pl", 
 		"Snapshot=t2.inf", 
@@ -112,7 +112,8 @@ lr_end_transaction("ChousReis", LR_AUTO);
 	
 	lr_start_transaction("InputPassData");
 	
-//web_reg_find("Text=Save this Credit Card Information",LAST);
+	web_reg_find("Text=Thank you for booking through Web Tours.", 
+		LAST);
 	/*Correlation comment - Do not change!  Original value='000;0;12/06/2020' Name ='outboundFlight' Type ='RecordReplay'*/
 
 	web_submit_form("reservations.pl_3", 
@@ -134,6 +135,9 @@ lr_end_transaction("ChousReis", LR_AUTO);
 	
 	lr_start_transaction("Logout");
 	
+	web_reg_find("Text=Welcome to the Web Tours site.", 
+		LAST);
+
 	web_image("SignOff Button", 
 		"Alt=SignOff Button", 
 		"Snapshot=t7.inf", 
