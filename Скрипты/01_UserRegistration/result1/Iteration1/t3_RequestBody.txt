@@ -1,2 +1,2 @@
-"username=91&password=1054&passwordConfirm=1054&firstName=&lastName=&address1=&address2=&regist"
-"er.x=78&register.y=5"
+"username=7&password=1267&passwordConfirm=1267&firstName=&lastName=&address1=&address2=&registe"
+"r.x=78&register.y=5"

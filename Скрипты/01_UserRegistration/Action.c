@@ -21,6 +21,9 @@ lr_end_transaction("WebTours", LR_AUTO);
 
 lr_start_transaction("GoSingUp");
 
+web_reg_find("Text=Customer Profile", 
+		LAST);
+
 	web_link("sign up now", 
 		"Text=sign up now", 
 		"Snapshot=t10.inf", 
@@ -30,6 +33,9 @@ lr_start_transaction("GoSingUp");
 	lr_think_time(9);
 
 	lr_start_transaction("InputUserData");
+	
+	web_reg_find("Text=Thank you, <b>{UserName}</b>, for registering and welcome to the Web Tours family.", 
+		LAST);
 	
 	web_submit_form("login.pl", 
 		"Snapshot=t11.inf", 
@@ -50,14 +56,22 @@ lr_end_transaction("InputUserData", LR_AUTO);
 	lr_think_time(20);
 	lr_start_transaction("CompliteRegestration");
 	
+	web_reg_find("Text=Welcome, <b>{UserName}</b>, to the Web Tours reservation pages.", 
+		LAST);
+	
 	web_image("button_next.gif", 
 		"Src=/WebTours/images/button_next.gif", 
 		"Snapshot=t12.inf", 
 		LAST);
+	
 lr_end_transaction("CompliteRegestration", LR_AUTO);
 	lr_think_time(5);
 	
 	lr_start_transaction("Logout");
+	
+	web_reg_find("Text=Welcome to the Web Tours site.", 
+		LAST); 
+	
 	web_image("SignOff Button", 
 		"Alt=SignOff Button", 
 		"Snapshot=t13.inf", 

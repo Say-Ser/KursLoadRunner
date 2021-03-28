@@ -56,14 +56,14 @@ web_reg_find("Text=Itinerary", 		LAST);
 
 	lr_think_time(24);
 
-	web_reg_find("Text=No flights have been reserved.", 		LAST);
+//	web_reg_find("Text=No flights have been reserved.", 		LAST);
 
 	web_submit_form("itinerary.pl", 
 		"Snapshot=t27.inf", 
 		ITEMDATA, 
-		"Name=1", "Value=<OFF>", ENDITEM,
-		"Name=removeAllFlights.x", "Value=44", ENDITEM, 
-		"Name=removeAllFlights.y", "Value=12", ENDITEM, 
+		"Name=1", "Value=on", ENDITEM,
+		"Name=removeFlights.x", "Value=72", ENDITEM, 
+		"Name=removeFlights.y", "Value=13", ENDITEM, 
 		LAST);
 	
 lr_end_transaction("DeleteItinerary", LR_AUTO);
